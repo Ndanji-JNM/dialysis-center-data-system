@@ -12,7 +12,7 @@ from datetime import date, timedelta
 # =====================================================
 
 
-OUTPUT_FILE = "../database/generated_sessions.sql"
+OUTPUT_FILE = "01_database/generated_sessions.sql"
 
 
 # Dialysis nurses
