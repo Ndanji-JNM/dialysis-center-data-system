@@ -116,12 +116,12 @@ Columns
 - session_date
 - start_time
 - end_time
-- duration_minutes
-- prescribed_duration
+- prescribed_duration_hours
+- actual_duration_hours
 - blood_flow_rate
 - dialysate_flow_rate
-- ultrafiltration_goal
-- fluid_removed
+- uf_goal_ml
+- fluid_removed_ml
 - session_status
 - notes
 

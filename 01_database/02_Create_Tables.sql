@@ -54,6 +54,7 @@ CREATE TABLE dialysis_machines (
 );
 
 CREATE TABLE sessions (
+
     session_id INT AUTO_INCREMENT PRIMARY KEY,
     patient_id INT NOT NULL,
     machine_id INT NOT NULL,
