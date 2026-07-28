@@ -33,6 +33,7 @@ CREATE TABLE patients (
     date_of_birth DATE,
     blood_group VARCHAR(5),
     diagnosis VARCHAR(100),
+    infection_status ENUM('None','HIV','Hepatitis B','Hepatitis C') DEFAULT 'None',
     phone VARCHAR(20),
     emergency_contact VARCHAR(20),
     address VARCHAR(150),
