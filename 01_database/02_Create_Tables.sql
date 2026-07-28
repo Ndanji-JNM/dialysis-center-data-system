@@ -61,13 +61,12 @@ CREATE TABLE sessions (
     session_date DATE NOT NULL,
     start_time TIME,
     end_time TIME,
-    duration_minutes INT,
-    prescribed_duration INT,
+    prescribed_duration_hours DECIMAL(3,1),
+    actual_duration_hours DECIMAL(3,1),
     blood_flow_rate INT,
     dialysate_flow_rate INT,
-    ultrafiltration_goal DECIMAL(5,2),
-    fluid_removed DECIMAL(5,2),
-
+    uf_goal_ml INT,
+    fluid_removed_ml INT,
     session_status ENUM(
         'Completed',
         'Interrupted',
