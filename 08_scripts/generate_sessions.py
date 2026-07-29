@@ -303,7 +303,7 @@ VALUES
     {session['machine_id']},
     {session['staff_id']},
     '{session['session_date']}',
-    {session['duration_hours']},,
+    {session['duration_hours']},
     {session['blood_flow_rate']},
     {session['dialysate_flow_rate']},
     {session['uf_goal']},
