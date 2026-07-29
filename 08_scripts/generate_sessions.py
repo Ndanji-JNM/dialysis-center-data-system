@@ -106,6 +106,15 @@ for infection, machine_ids in machine_map.items():
     print(f"{infection}: {machine_ids}")
 
 # ==========================================================
+# CHECK MACHINE AVAILABILITY
+# ==========================================================
+
+for infection, machine_ids in machine_map.items():
+
+    if len(machine_ids) == 0:
+        print(f"Warning: No operational machine available for {infection} loop.")
+        
+# ==========================================================
 # LOAD DIALYSIS NURSES
 # ==========================================================
 
