@@ -122,7 +122,9 @@ VALUES
 
 ('HD005','Fresenius','5008S','FR5008S001',1,'2024-02-18','Operational'),
 
-('HD006','B. Braun','Dialog+','BBD002',4,'2023-08-12','Operational');
+('HD006','B. Braun','Dialog+','BBD002',4,'2023-08-12','Operational'),
+
+('HD007','Fresenius','4008S','FR4008S002',3,'2024-06-15','Operational');
 
 -- =====================================================
 -- PATIENTS

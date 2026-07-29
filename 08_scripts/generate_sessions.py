@@ -1,336 +1,130 @@
+"""
+Dialysis Session Generator
+
+This script reads data from the MySQL database and generates
+realistic dialysis session records.
+
+The generated SQL file can be imported into the sessions table.
+
+Author: Joseph Ndanji Muleba
+Project: Dialysis Session Tracking System
+"""
+
+# ==========================================================
+# IMPORTS
+# ==========================================================
+
 import random
 from datetime import date, timedelta
+from pathlib import Path
+
+from db_connection import get_connection
 
 
-# =====================================================
-# Dialysis Session Data Generator
-#
-# Generates synthetic dialysis sessions
-# for DRCDC (fictional Zambian dialysis centre)
-#
-# No real patient data is used.
-# =====================================================
+# ==========================================================
+# PROJECT PATHS
+# ==========================================================
 
+PROJECT_FOLDER = Path(__file__).resolve().parent.parent
 
-OUTPUT_FILE = "01_database/generated_sessions.sql"
+OUTPUT_FILE = PROJECT_FOLDER / "01_database" / "generated_sessions.sql"
 
+# ==========================================================
+# CONNECT TO DATABASE
+# ==========================================================
 
-# Dialysis nurses
-NURSES = [4, 5, 6]
+connection = get_connection()
 
+cursor = connection.cursor(dictionary=True)
 
-# Machine assignment by infection status
-MACHINE_MAP = {
+print("Connected to MySQL database.")
 
-    "None": [1, 2, 5],          # Loop 1
+# ==========================================================
+# LOAD PATIENTS
+# ==========================================================
 
-    "HIV": [3],                # Loop 2
+cursor.execute("""
+SELECT
+    patient_id,
+    infection_status
+FROM patients
+WHERE status = 'Active';
+""")
 
-    "Hepatitis C": [4],        # Loop 3
+patients = cursor.fetchall()
 
-    "Hepatitis B": [6]         # Loop 4
+print(f"Loaded {len(patients)} active patients.")
+
+# ==========================================================
+# LOAD DIALYSIS MACHINES
+# ==========================================================
+
+cursor.execute("""
+SELECT
+    machine_id,
+    loop_number
+FROM dialysis_machines
+WHERE status = 'Operational';
+""")
+
+machines = cursor.fetchall()
+
+print(f"Loaded {len(machines)} operational machines.")
+
+# ==========================================================
+# BUILD MACHINE MAP BASED ON INFECTION CONTROL LOOPS
+# ==========================================================
+
+machine_map = {
+    "None": [],
+    "HIV": [],
+    "Hepatitis C": [],
+    "Hepatitis B": []
 }
 
 
-# Session patterns
-DAYS_A = [0, 2, 4]   # Mon Wed Fri
-DAYS_B = [1, 3, 5]   # Tue Thu Sat
+for machine in machines:
 
+    if machine["loop_number"] == 1:
+        machine_map["None"].append(machine["machine_id"])
 
-# Patient infection status
-# Must match patient IDs from database
+    elif machine["loop_number"] == 2:
+        machine_map["HIV"].append(machine["machine_id"])
 
-patients = [
+    elif machine["loop_number"] == 3:
+        machine_map["Hepatitis C"].append(machine["machine_id"])
 
-    {"id":1, "infection":"None", "schedule":"A"},
-    {"id":2, "infection":"None", "schedule":"B"},
-    {"id":3, "infection":"None", "schedule":"A"},
-    {"id":4, "infection":"None", "schedule":"B"},
-    {"id":5, "infection":"None", "schedule":"A"},
-    {"id":6, "infection":"None", "schedule":"B"},
+    elif machine["loop_number"] == 4:
+        machine_map["Hepatitis B"].append(machine["machine_id"])
 
-    {"id":7, "infection":"HIV", "schedule":"A"},
 
-    {"id":8, "infection":"None", "schedule":"B"},
-    {"id":9, "infection":"None", "schedule":"A"},
-    {"id":10,"infection":"None", "schedule":"B"},
+print()
+print("Machine allocation:")
+print("-" * 30)
 
-    {"id":11,"infection":"None", "schedule":"A"},
-    {"id":12,"infection":"None", "schedule":"B"},
+for infection, machine_ids in machine_map.items():
+    print(f"{infection}: {machine_ids}")
 
-    {"id":13,"infection":"Hepatitis C", "schedule":"A"},
+# ==========================================================
+# LOAD DIALYSIS NURSES
+# ==========================================================
 
-    {"id":14,"infection":"None", "schedule":"B"},
-    {"id":15,"infection":"None", "schedule":"A"},
-    {"id":16,"infection":"None", "schedule":"B"},
-    {"id":17,"infection":"None", "schedule":"A"},
+cursor.execute("""
+SELECT
+    s.staff_id,
+    s.first_name,
+    s.last_name
+FROM staff s
+JOIN staff_roles r
+    ON s.role_id = r.role_id
+WHERE r.role_name = 'Dialysis Nurse'
+  AND s.status = 'Active';
+""")
 
-    {"id":18,"infection":"HIV", "schedule":"B"},
+nurses = cursor.fetchall()
 
-    {"id":19,"infection":"None", "schedule":"A"},
-    {"id":20,"infection":"None", "schedule":"B"},
-    {"id":21,"infection":"None", "schedule":"A"},
+print(f"Loaded {len(nurses)} dialysis nurses.")
 
-    {"id":22,"infection":"Hepatitis B", "schedule":"B"},
+cursor.close()
+connection.close()
 
-    {"id":23,"infection":"None", "schedule":"A"},
-    {"id":24,"infection":"None", "schedule":"B"},
-    {"id":25,"infection":"None", "schedule":"A"},
-    {"id":26,"infection":"None", "schedule":"B"},
-
-    {"id":27,"infection":"HIV", "schedule":"A"},
-
-    {"id":28,"infection":"None", "schedule":"B"},
-
-    {"id":29,"infection":"Hepatitis C", "schedule":"A"},
-
-    {"id":30,"infection":"None", "schedule":"B"}
-]
-
-
-def random_time():
-
-    times = [
-        "07:00:00",
-        "12:00:00",
-        "17:00:00"
-    ]
-
-    return random.choice(times)
-
-
-
-def create_end_time(start):
-
-    if start == "07:00:00":
-        return "11:00:00"
-
-    if start == "12:00:00":
-        return "16:00:00"
-
-    return "21:00:00"
-
-
-
-def generate_session_values():
-
-    sessions = []
-
-    session_id = 1
-
-
-    start_date = date(2024,1,1)
-
-    end_date = date(2024,3,31)
-
-
-    current = start_date
-
-
-    while current <= end_date:
-
-
-        for patient in patients:
-
-
-            weekday = current.weekday()
-
-
-            allowed_days = (
-                DAYS_A
-                if patient["schedule"] == "A"
-                else DAYS_B
-            )
-
-
-            if weekday in allowed_days:
-
-
-                machine = random.choice(
-                    MACHINE_MAP[patient["infection"]]
-                )
-
-
-                nurse = random.choice(NURSES)
-
-
-                prescribed = random.choice(
-                    [4.0,4.0,4.0,3.5,4.5]
-                )
-
-
-                status = random.choices(
-                    [
-                        "Completed",
-                        "Interrupted",
-                        "Missed"
-                    ],
-                    weights=[
-                        90,
-                        8,
-                        2
-                    ]
-                )[0]
-
-
-                if status == "Interrupted":
-
-                    actual = random.choice(
-                        [1.5,2.0,2.5,3.0]
-                    )
-
-                elif status == "Missed":
-
-                    actual = 0
-
-                else:
-
-                    actual = prescribed
-
-
-
-                uf_goal = random.choice(
-                    [
-                        1000,
-                        1500,
-                        2000,
-                        2500,
-                        3000,
-                        3500,
-                        4000
-                    ]
-                )
-
-
-                # rare high UF
-                if random.random() < 0.05:
-                    uf_goal = random.choice(
-                        [
-                            4500,
-                            5000
-                        ]
-                    )
-
-
-                fluid_removed = uf_goal + random.randint(
-                    -200,
-                    200
-                )
-
-
-                if fluid_removed < 0:
-                    fluid_removed = 0
-
-
-                bfr = random.choice(
-                    [
-                        250,
-                        300,
-                        350,
-                        400
-                    ]
-                )
-
-
-                dfr = random.choice(
-                    [
-                        500,
-                        700,
-                        800
-                    ]
-                )
-
-
-                start = random_time()
-
-                end = create_end_time(start)
-
-
-                notes = "Routine dialysis session"
-
-
-                if status == "Interrupted":
-                    notes = "Session interrupted due to clinical concern"
-
-
-                sessions.append(
-                    f"""(
-{patient['id']},
-{machine},
-{nurse},
-'{current}',
-'{start}',
-'{end}',
-{prescribed},
-{actual},
-{bfr},
-{dfr},
-{uf_goal},
-{fluid_removed},
-'{status}',
-'{notes}'
-)"""
-                )
-
-
-                session_id += 1
-
-
-        current += timedelta(days=1)
-
-
-    return sessions
-
-
-
-sessions = generate_session_values()
-
-
-
-with open(OUTPUT_FILE,"w") as file:
-
-
-    file.write(
-"""-- =====================================================
--- Generated Dialysis Sessions
--- DRCDC Synthetic Dataset
--- =====================================================
-
-USE dialysis_tracker;
-
-
-INSERT INTO sessions
-(
-patient_id,
-machine_id,
-staff_id,
-session_date,
-start_time,
-end_time,
-prescribed_duration_hours,
-actual_duration_hours,
-blood_flow_rate,
-dialysate_flow_rate,
-uf_goal_ml,
-fluid_removed_ml,
-session_status,
-notes
-)
-VALUES
-
-"""
-    )
-
-
-    file.write(
-        ",\n".join(sessions)
-    )
-
-
-    file.write(";")
-
-
-
-print(
-    f"Generated {len(sessions)} dialysis sessions"
-)
