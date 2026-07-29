@@ -293,8 +293,8 @@ INSERT INTO sessions
     prescribed_duration_hours,
     blood_flow_rate,
     dialysate_flow_rate,
-    ultrafiltration_goal,
-    fluid_removed,
+    uf_goal_ml,
+    fluid_removed_ml,
     session_status
 )
 VALUES
@@ -312,6 +312,8 @@ VALUES
 );
 
 """
+
+        file.write(sql)
 
         file.write(sql)
 
