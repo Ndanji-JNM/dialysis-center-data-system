@@ -270,6 +270,56 @@ print()
 print("Session generation complete.")
 print(f"Generated sessions: {len(generated_sessions)}")
 
+# ==========================================================
+# EXPORT SESSIONS TO SQL FILE
+# ==========================================================
+
+with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
+
+    file.write("-- Generated Dialysis Session Data\n")
+    file.write("-- Synthetic data based on a Zambian dialysis centre scenario\n")
+    file.write("-- Generated using Python\n\n")
+
+
+    for session in generated_sessions:
+
+        sql = f"""
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    prescribed_duration,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    ultrafiltration_goal,
+    fluid_removed,
+    session_status
+)
+VALUES
+(
+    {session['patient_id']},
+    {session['machine_id']},
+    {session['staff_id']},
+    '{session['session_date']}',
+    {session['duration_hours']},
+    {session['blood_flow_rate']},
+    {session['dialysate_flow_rate']},
+    {session['uf_goal']},
+    {session['fluid_removed']},
+    '{session['session_status']}'
+);
+
+"""
+
+        file.write(sql)
+
+
+print()
+print("SQL export complete.")
+print(f"File created: {OUTPUT_FILE}")
+
 cursor.close()
 connection.close()
 
