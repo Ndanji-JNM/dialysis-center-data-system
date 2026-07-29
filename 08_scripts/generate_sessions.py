@@ -315,8 +315,6 @@ VALUES
 
         file.write(sql)
 
-        file.write(sql)
-
 
 print()
 print("SQL export complete.")
