@@ -20,6 +20,15 @@ from db_connection import get_connection
 
 
 # ==========================================================
+# PROJECT PATHS
+# ==========================================================
+
+PROJECT_FOLDER = Path(__file__).resolve().parent.parent
+
+OUTPUT_FILE = PROJECT_FOLDER / "01_database" / "generated_vitals.sql"
+
+
+# ==========================================================
 # DATABASE CONNECTION
 # ==========================================================
 
@@ -162,6 +171,101 @@ print()
 for vital in generated_vitals[:5]:
 
     print(vital)
+
+# ==========================================================
+# VALIDATE UF AND WEIGHT LOSS
+# ==========================================================
+print()
+print("Validating weight loss against fluid removed...")
+print("-" * 45)
+
+# Create a lookup dictionary using session_id
+session_lookup = {
+    session["session_id"]: session
+    for session in sessions
+}
+
+validation_errors = 0
+
+for vital in generated_vitals:
+
+    session = session_lookup[vital["session_id"]]
+
+    expected_weight_loss = session["fluid_removed_ml"] / 1000
+
+    actual_weight_loss = round(
+        vital["pre_weight"] - vital["post_weight"],
+        1
+    )
+
+    difference = abs(expected_weight_loss - actual_weight_loss)
+
+    if difference > 0.5:
+
+        validation_errors += 1
+
+        print(
+            f"Session {vital['session_id']} "
+            f"Expected: {expected_weight_loss:.1f} kg | "
+            f"Actual: {actual_weight_loss:.1f} kg"
+        )
+
+print()
+
+if validation_errors == 0:
+    print("Weight validation passed.")
+else:
+    print(f"Weight validation found {validation_errors} issue(s).")
+
+
+# ==========================================================
+# EXPORT VITAL LOGS TO SQL
+# ==========================================================
+
+with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
+
+    file.write("-- Generated Vital Logs\n")
+    file.write("-- Synthetic dialysis vital signs\n")
+    file.write("-- Generated using Python\n\n")
+
+
+    for vital in generated_vitals:
+
+        sql = f"""
+INSERT INTO vital_logs
+(
+    session_id,
+    pre_systolic_bp,
+    pre_diastolic_bp,
+    pre_pulse,
+    pre_weight,
+    post_systolic_bp,
+    post_diastolic_bp,
+    post_pulse,
+    post_weight
+)
+VALUES
+(
+    {vital['session_id']},
+    {vital['pre_systolic_bp']},
+    {vital['pre_diastolic_bp']},
+    {vital['pre_pulse']},
+    {vital['pre_weight']},
+    {vital['post_systolic_bp']},
+    {vital['post_diastolic_bp']},
+    {vital['post_pulse']},
+    {vital['post_weight']}
+);
+
+"""
+
+        file.write(sql)
+
+
+print()
+print("SQL export complete.")
+print(f"File created: {OUTPUT_FILE}")
+
 
 # ==========================================================
 # CLOSE CONNECTION
