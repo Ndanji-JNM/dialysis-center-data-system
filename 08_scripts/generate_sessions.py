@@ -1,10 +1,8 @@
 """
 Dialysis Session Generator
 
-This script reads data from the MySQL database and generates
-realistic dialysis session records.
-
-The generated SQL file can be imported into the sessions table.
+Reads reference data from MySQL and generates realistic dialysis
+session records for the Dialysis Session Tracking System.
 
 Author: Joseph Ndanji Muleba
 Project: Dialysis Session Tracking System
@@ -15,7 +13,7 @@ Project: Dialysis Session Tracking System
 # ==========================================================
 
 import random
-from datetime import date, timedelta
+from datetime import date, datetime, time, timedelta
 from pathlib import Path
 
 from db_connection import get_connection
@@ -29,12 +27,12 @@ PROJECT_FOLDER = Path(__file__).resolve().parent.parent
 
 OUTPUT_FILE = PROJECT_FOLDER / "01_database" / "generated_sessions.sql"
 
+
 # ==========================================================
-# CONNECT TO DATABASE
+# DATABASE CONNECTION
 # ==========================================================
 
 connection = get_connection()
-
 cursor = connection.cursor(dictionary=True)
 
 print("Connected to MySQL database.")
@@ -143,25 +141,60 @@ number_of_sessions_per_patient = 40
 session_start_date = date(2024, 1, 1)
 session_end_date = date(2025, 12, 31)
 
+# Three dialysis shifts commonly used
+
+SHIFT_START_TIMES = [
+    time(6, 30),
+    time(12, 30),
+    time(18, 0)
+]
+
 # ==========================================================
-# GENERATE RANDOM SESSION DATE
+# RANDOM SESSION DATE
 # ==========================================================
 
 def random_session_date():
 
-    days_between = (session_end_date - session_start_date).days
+    days = (session_end_date - session_start_date).days
 
-    random_days = random.randint(0, days_between)
-
-    return session_start_date + timedelta(days=random_days)
+    return session_start_date + timedelta(
+        days=random.randint(0, days)
+    )
 
 # ==========================================================
-# GENERATE DIALYSIS PARAMETERS
+# RANDOM SESSION TIME
+# ==========================================================
+
+def generate_session_times(duration_hours):
+
+    start = random.choice(SHIFT_START_TIMES)
+
+    start_datetime = datetime.combine(
+        date.today(),
+        start
+    )
+
+    end_datetime = start_datetime + timedelta(
+        hours=duration_hours
+    )
+
+    return (
+        start_datetime.time(),
+        end_datetime.time()
+    )
+
+
+# ==========================================================
+# DIALYSIS PARAMETERS
 # ==========================================================
 
 def generate_dialysis_parameters():
 
-    duration_hours = random.choice([3.5, 4.0, 4.5])
+    prescribed_duration = random.choice([
+        3.5,
+        4.0,
+        4.5
+    ])
 
     blood_flow_rate = random.choice([
         250,
@@ -183,32 +216,29 @@ def generate_dialysis_parameters():
         uf_goal
     )
 
+
     return (
-        duration_hours,
+        prescribed_duration,
         blood_flow_rate,
         dialysate_flow_rate,
         uf_goal,
         fluid_removed
     )
 
- # ==========================================================
+# ==========================================================
 # GENERATE DIALYSIS SESSIONS
 # ==========================================================
 
 generated_sessions = []
 
-
 for patient in patients:
 
     infection_status = patient["infection_status"]
 
-    # Select machines from correct infection-control loop
     available_machines = machine_map[infection_status]
 
-    # Safety check
     if len(available_machines) == 0:
         continue
-
 
     for i in range(number_of_sessions_per_patient):
 
@@ -218,15 +248,17 @@ for patient in patients:
 
         session_date = random_session_date()
 
-
         (
-            duration_hours,
+            prescribed_duration,
             blood_flow_rate,
             dialysate_flow_rate,
             uf_goal,
             fluid_removed
         ) = generate_dialysis_parameters()
 
+        # ---------------------------------------------
+        # Session outcome
+        # ---------------------------------------------
 
         session_status = random.choices(
             [
@@ -236,11 +268,56 @@ for patient in patients:
             ],
             weights=[
                 90,
-                8,
-                2
-            ]
+                7,
+                3
+            ],
+            k=1
         )[0]
 
+        # ---------------------------------------------
+        # Actual duration
+        # ---------------------------------------------
+
+        if session_status == "Completed":
+
+            actual_duration = prescribed_duration
+
+        elif session_status == "Interrupted":
+
+            actual_duration = round(
+                random.uniform(
+                    prescribed_duration * 0.40,
+                    prescribed_duration * 0.90
+                ),
+                1
+            )
+
+            # Usually less fluid removed
+            fluid_removed = random.randint(
+                int(uf_goal * 0.35),
+                int(uf_goal * 0.80)
+            )
+
+        else:
+
+            actual_duration = 0
+
+            fluid_removed = 0
+
+        # ---------------------------------------------
+        # Start / End Time
+        # ---------------------------------------------
+
+        if session_status == "Missed":
+
+            start_time = None
+            end_time = None
+
+        else:
+
+            start_time, end_time = generate_session_times(
+                actual_duration
+            )
 
         generated_sessions.append({
 
@@ -252,7 +329,13 @@ for patient in patients:
 
             "session_date": session_date,
 
-            "duration_hours": duration_hours,
+            "start_time": start_time,
+
+            "end_time": end_time,
+
+            "prescribed_duration": prescribed_duration,
+
+            "actual_duration": actual_duration,
 
             "blood_flow_rate": blood_flow_rate,
 
@@ -280,8 +363,18 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
     file.write("-- Synthetic data based on a Zambian dialysis centre scenario\n")
     file.write("-- Generated using Python\n\n")
 
-
     for session in generated_sessions:
+
+        # Convert Python None to SQL NULL
+        if session["start_time"] is None:
+            start_time = "NULL"
+        else:
+            start_time = f"'{session['start_time']}'"
+
+        if session["end_time"] is None:
+            end_time = "NULL"
+        else:
+            end_time = f"'{session['end_time']}'"
 
         sql = f"""
 INSERT INTO sessions
@@ -290,12 +383,16 @@ INSERT INTO sessions
     machine_id,
     staff_id,
     session_date,
+    start_time,
+    end_time,
     prescribed_duration_hours,
+    actual_duration_hours,
     blood_flow_rate,
     dialysate_flow_rate,
     uf_goal_ml,
     fluid_removed_ml,
-    session_status
+    session_status,
+    notes
 )
 VALUES
 (
@@ -303,18 +400,21 @@ VALUES
     {session['machine_id']},
     {session['staff_id']},
     '{session['session_date']}',
-    {session['duration_hours']},
+    {start_time},
+    {end_time},
+    {session['prescribed_duration']},
+    {session['actual_duration']},
     {session['blood_flow_rate']},
     {session['dialysate_flow_rate']},
     {session['uf_goal']},
     {session['fluid_removed']},
-    '{session['session_status']}'
+    '{session['session_status']}',
+    NULL
 );
 
 """
 
         file.write(sql)
-
 
 print()
 print("SQL export complete.")
@@ -322,4 +422,3 @@ print(f"File created: {OUTPUT_FILE}")
 
 cursor.close()
 connection.close()
-

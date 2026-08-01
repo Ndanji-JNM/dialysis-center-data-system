@@ -1,0 +1,43204 @@
+-- Generated Dialysis Session Data
+-- Synthetic data based on a Zambian dialysis centre scenario
+-- Generated using Python
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    6,
+    '2025-04-08',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    961,
+    917,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    5,
+    '2024-06-16',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    2771,
+    2555,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    4,
+    '2025-11-08',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    2273,
+    2157,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    4,
+    '2025-08-27',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    2004,
+    1939,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    6,
+    '2025-04-27',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    1633,
+    1474,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    5,
+    '2025-09-13',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    2347,
+    2079,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    6,
+    '2024-10-05',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    749,
+    710,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    4,
+    '2025-04-14',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    2646,
+    2643,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    6,
+    '2025-03-07',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    1784,
+    1548,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    6,
+    '2025-08-04',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    2206,
+    2101,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    4,
+    '2024-02-18',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    862,
+    844,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    5,
+    '2024-06-19',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    938,
+    815,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    5,
+    '2025-08-06',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    681,
+    655,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    5,
+    '2024-02-28',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    3736,
+    3567,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    5,
+    '2024-01-07',
+    NULL,
+    NULL,
+    4.0,
+    0,
+    300,
+    600,
+    3998,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    5,
+    '2025-11-13',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2220,
+    1974,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    4,
+    '2024-07-01',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    2786,
+    2699,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    6,
+    '2025-08-15',
+    '12:30:00',
+    '16:06:00',
+    4.5,
+    3.6,
+    350,
+    800,
+    844,
+    519,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    1,
+    5,
+    '2025-01-25',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    1843,
+    1735,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    4,
+    '2025-02-19',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    1649,
+    1581,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    1,
+    4,
+    '2025-08-12',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    2962,
+    2749,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    4,
+    '2025-08-13',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    1713,
+    1633,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    1,
+    5,
+    '2025-03-28',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    3885,
+    3384,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    6,
+    '2024-04-15',
+    '06:30:00',
+    '09:54:00',
+    4.0,
+    3.4,
+    250,
+    800,
+    652,
+    265,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    4,
+    '2024-08-24',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    3583,
+    3358,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    5,
+    '2025-10-25',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    799,
+    738,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    1,
+    4,
+    '2024-05-23',
+    '12:30:00',
+    '15:18:00',
+    4.5,
+    2.8,
+    350,
+    500,
+    3807,
+    2254,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    4,
+    '2024-03-10',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    3743,
+    3336,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    1,
+    4,
+    '2024-05-25',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    3859,
+    3666,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    6,
+    '2025-03-22',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    2123,
+    1830,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    4,
+    '2025-08-24',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    941,
+    918,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    1,
+    5,
+    '2024-06-06',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3273,
+    3272,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    5,
+    '2024-12-06',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    2414,
+    2265,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    1,
+    4,
+    '2025-12-17',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    1159,
+    1140,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    1,
+    4,
+    '2024-02-24',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3273,
+    3028,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    5,
+    '2024-10-08',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    3511,
+    3499,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    5,
+    '2025-08-29',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    2014,
+    1865,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    2,
+    5,
+    '2024-04-07',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    3574,
+    3435,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    1,
+    4,
+    '2024-05-28',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3670,
+    3299,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    1,
+    5,
+    5,
+    '2025-10-12',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    525,
+    518,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    4,
+    '2024-10-30',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    2353,
+    2337,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    2,
+    4,
+    '2024-08-02',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    3424,
+    3335,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    5,
+    '2024-07-31',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    3390,
+    2929,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    5,
+    '2024-02-23',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3137,
+    2719,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    4,
+    '2024-01-28',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    3572,
+    3421,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    4,
+    '2024-10-16',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3891,
+    3447,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    6,
+    '2025-02-14',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    3004,
+    2584,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    6,
+    '2024-10-20',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    2440,
+    2368,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    5,
+    '2024-06-03',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    3581,
+    3285,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    2,
+    4,
+    '2024-04-06',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3728,
+    3680,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    2,
+    4,
+    '2025-09-18',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    3634,
+    3507,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    2,
+    4,
+    '2024-04-14',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    1108,
+    1094,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    2,
+    6,
+    '2025-03-01',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    1923,
+    1707,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    5,
+    '2025-05-29',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    510,
+    472,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    6,
+    '2025-07-09',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    3082,
+    2829,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    6,
+    '2025-12-26',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2889,
+    2685,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    4,
+    '2025-12-16',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    2707,
+    2422,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    6,
+    '2024-02-11',
+    '18:00:00',
+    '20:48:00',
+    4.5,
+    2.8,
+    350,
+    800,
+    3370,
+    1748,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    2,
+    4,
+    '2024-01-27',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    2918,
+    2679,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    6,
+    '2025-07-10',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2752,
+    2344,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    2,
+    6,
+    '2024-11-28',
+    '18:00:00',
+    '19:36:00',
+    3.5,
+    1.6,
+    250,
+    500,
+    2742,
+    1141,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    4,
+    '2024-06-30',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    1426,
+    1373,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    5,
+    '2024-03-01',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    745,
+    718,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    4,
+    '2025-06-08',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    1736,
+    1507,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    6,
+    '2025-06-02',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    1671,
+    1449,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    5,
+    '2025-07-10',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    3503,
+    3433,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    5,
+    '2024-08-20',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    2519,
+    2344,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    4,
+    '2024-05-03',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    1028,
+    935,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    2,
+    4,
+    '2024-09-18',
+    '18:00:00',
+    '21:48:00',
+    4.5,
+    3.8,
+    350,
+    500,
+    1432,
+    545,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    5,
+    '2024-08-06',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    2314,
+    2228,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    2,
+    4,
+    '2025-11-17',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    778,
+    688,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    4,
+    '2025-05-16',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    760,
+    683,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    2,
+    6,
+    '2024-06-17',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    1888,
+    1726,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    2,
+    6,
+    '2025-09-14',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    1261,
+    1181,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    2,
+    4,
+    '2025-12-03',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2069,
+    1822,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    4,
+    '2025-01-26',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    2480,
+    2148,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    5,
+    4,
+    '2025-07-25',
+    '12:30:00',
+    '14:24:00',
+    4.5,
+    1.9,
+    300,
+    600,
+    775,
+    298,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    4,
+    '2024-05-08',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    920,
+    836,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    6,
+    '2025-07-10',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    3659,
+    3261,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    2,
+    1,
+    4,
+    '2024-07-04',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    3162,
+    2793,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    6,
+    '2024-01-03',
+    NULL,
+    NULL,
+    3.5,
+    0,
+    300,
+    500,
+    1069,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    4,
+    '2025-05-06',
+    '12:30:00',
+    '15:42:00',
+    4.0,
+    3.2,
+    250,
+    600,
+    3766,
+    2866,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    1,
+    5,
+    '2025-06-24',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    753,
+    657,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    1,
+    4,
+    '2024-01-29',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    3865,
+    3495,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    5,
+    '2024-04-29',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    2655,
+    2360,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    6,
+    '2025-09-02',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    1612,
+    1490,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    5,
+    '2024-10-27',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    3085,
+    2858,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    6,
+    '2025-09-27',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    502,
+    491,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    5,
+    '2024-08-08',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    2322,
+    2243,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    6,
+    '2025-01-26',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    1990,
+    1921,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    4,
+    '2024-02-28',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    888,
+    856,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    1,
+    6,
+    '2025-09-22',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    3490,
+    3129,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    5,
+    '2025-07-11',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    2469,
+    2361,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    4,
+    '2024-03-13',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    2154,
+    2062,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    5,
+    '2025-11-13',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    955,
+    857,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    6,
+    '2025-04-30',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    3560,
+    3426,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    4,
+    '2025-05-31',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    3418,
+    3078,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    4,
+    '2025-02-27',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    3977,
+    3697,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    6,
+    '2025-07-10',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    2726,
+    2655,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    5,
+    '2024-03-17',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    1424,
+    1313,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    1,
+    4,
+    '2025-01-02',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    3458,
+    3387,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    1,
+    6,
+    '2025-08-27',
+    '06:30:00',
+    '09:30:00',
+    4.5,
+    3.0,
+    400,
+    600,
+    2856,
+    1640,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    6,
+    '2024-01-26',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3980,
+    3517,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    6,
+    '2025-08-13',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    781,
+    668,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    6,
+    '2025-03-14',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    1138,
+    1133,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    4,
+    '2025-08-19',
+    '18:00:00',
+    '20:42:00',
+    3.5,
+    2.7,
+    300,
+    500,
+    3226,
+    1778,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    5,
+    '2025-09-26',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    624,
+    561,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    6,
+    '2024-12-19',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    1437,
+    1238,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    6,
+    '2024-11-01',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    1389,
+    1311,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    1,
+    5,
+    '2025-05-26',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    3535,
+    3014,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    6,
+    '2025-11-16',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    3485,
+    3439,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    1,
+    4,
+    '2025-04-15',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    2398,
+    2238,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    5,
+    '2025-12-24',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    2536,
+    2359,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    5,
+    '2025-06-19',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    1570,
+    1525,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    6,
+    '2024-01-27',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3383,
+    3313,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    1,
+    5,
+    '2025-01-19',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    2347,
+    2255,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    2,
+    4,
+    '2024-06-03',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    2657,
+    2497,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    1,
+    5,
+    '2025-08-22',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    876,
+    816,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    1,
+    6,
+    '2024-05-14',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    3390,
+    3012,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    3,
+    5,
+    4,
+    '2024-09-05',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    2983,
+    2722,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    5,
+    '2024-07-24',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    1976,
+    1894,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    1,
+    6,
+    '2025-07-14',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    2364,
+    2235,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    1,
+    6,
+    '2025-12-12',
+    '12:30:00',
+    '15:54:00',
+    4.0,
+    3.4,
+    400,
+    600,
+    621,
+    433,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    5,
+    '2025-01-28',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    1711,
+    1679,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    5,
+    '2025-05-17',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    2141,
+    2095,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    1,
+    4,
+    '2025-05-05',
+    '18:00:00',
+    '20:30:00',
+    3.5,
+    2.5,
+    300,
+    800,
+    3677,
+    2105,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    5,
+    '2024-01-06',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    3693,
+    3628,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    1,
+    5,
+    '2024-07-09',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    894,
+    812,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    1,
+    4,
+    '2024-12-17',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1429,
+    1291,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    5,
+    '2024-01-14',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    1336,
+    1269,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    1,
+    5,
+    '2024-04-05',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    1525,
+    1502,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    6,
+    '2025-05-17',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    1022,
+    1003,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    4,
+    '2024-08-16',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    2209,
+    1902,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    6,
+    '2024-09-11',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    3783,
+    3706,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    4,
+    '2025-03-14',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    1323,
+    1255,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    4,
+    '2024-06-26',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    2596,
+    2294,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    6,
+    '2025-02-28',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    2813,
+    2748,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    1,
+    4,
+    '2024-12-17',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3009,
+    2789,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    5,
+    '2025-08-25',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    819,
+    790,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    5,
+    '2025-02-16',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    3594,
+    3389,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    4,
+    '2025-05-12',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    2168,
+    2079,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    6,
+    '2024-01-16',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    2248,
+    1971,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    4,
+    '2025-06-08',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    3668,
+    3571,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    5,
+    '2024-08-29',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    1989,
+    1806,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    6,
+    '2025-04-03',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    706,
+    659,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    1,
+    5,
+    '2024-11-13',
+    '06:30:00',
+    '10:18:00',
+    4.5,
+    3.8,
+    350,
+    600,
+    2021,
+    741,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    5,
+    '2024-05-09',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    971,
+    850,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    5,
+    '2025-08-25',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    2897,
+    2854,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    4,
+    '2024-11-15',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    3615,
+    3250,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    1,
+    6,
+    '2025-08-28',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    2663,
+    2533,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    6,
+    '2025-08-19',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1218,
+    1154,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    1,
+    6,
+    '2025-01-20',
+    '06:30:00',
+    '09:42:00',
+    4.5,
+    3.2,
+    350,
+    800,
+    3630,
+    2804,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    5,
+    '2024-04-23',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    300,
+    500,
+    560,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    6,
+    '2024-06-21',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3704,
+    3154,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    5,
+    '2025-08-29',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    2823,
+    2740,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    6,
+    '2025-07-12',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    2769,
+    2691,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    1,
+    6,
+    '2025-08-30',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    3231,
+    3022,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    5,
+    '2025-11-28',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2538,
+    2407,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    5,
+    5,
+    '2024-02-25',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    1752,
+    1514,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    4,
+    2,
+    4,
+    '2025-12-31',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    3461,
+    2997,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    6,
+    '2024-03-09',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    1312,
+    1169,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    5,
+    4,
+    '2025-10-04',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3334,
+    3058,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    5,
+    6,
+    '2024-03-09',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    2342,
+    2175,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    5,
+    4,
+    '2025-05-14',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    3419,
+    2925,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    1,
+    6,
+    '2025-08-09',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    2601,
+    2305,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    1,
+    5,
+    '2024-03-11',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    3336,
+    3209,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    5,
+    5,
+    '2025-09-16',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3650,
+    3210,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    1,
+    4,
+    '2024-03-26',
+    '12:30:00',
+    '14:54:00',
+    4.5,
+    2.4,
+    400,
+    500,
+    2985,
+    2257,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    5,
+    6,
+    '2024-05-24',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    716,
+    687,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    1,
+    4,
+    '2024-12-21',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    793,
+    747,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    4,
+    '2025-05-11',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    3501,
+    3128,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    4,
+    '2024-06-08',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    3011,
+    3008,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    1,
+    6,
+    '2025-03-08',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    2420,
+    2128,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    6,
+    '2025-08-03',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    2824,
+    2745,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    4,
+    '2025-11-08',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    1681,
+    1514,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    6,
+    '2025-07-29',
+    '06:30:00',
+    '08:06:00',
+    3.5,
+    1.6,
+    350,
+    500,
+    3818,
+    2333,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    4,
+    '2024-01-29',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    1624,
+    1568,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    1,
+    5,
+    '2025-08-01',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    1538,
+    1338,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    6,
+    '2025-02-12',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3877,
+    3516,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    1,
+    4,
+    '2025-09-30',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    350,
+    500,
+    652,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    5,
+    4,
+    '2025-10-28',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    1985,
+    1747,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    4,
+    '2025-02-03',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    1306,
+    1283,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    1,
+    6,
+    '2025-03-27',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    2058,
+    2046,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    4,
+    '2025-09-02',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    2735,
+    2674,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    1,
+    4,
+    '2025-09-08',
+    '18:00:00',
+    '20:30:00',
+    4.0,
+    2.5,
+    350,
+    800,
+    573,
+    367,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    5,
+    6,
+    '2024-10-23',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    2963,
+    2960,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    4,
+    '2024-01-15',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    559,
+    495,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    4,
+    '2024-03-25',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    826,
+    826,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    1,
+    4,
+    '2024-07-08',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1591,
+    1472,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    5,
+    4,
+    '2024-02-14',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    1856,
+    1834,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    4,
+    '2024-02-16',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    3579,
+    3351,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    5,
+    6,
+    '2025-04-07',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3014,
+    2837,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    5,
+    '2024-03-29',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    808,
+    770,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    1,
+    4,
+    '2024-07-19',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    1682,
+    1519,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    5,
+    4,
+    '2024-12-29',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    577,
+    517,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    5,
+    6,
+    '2024-01-05',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    3365,
+    3172,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    2,
+    4,
+    '2024-03-20',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    3356,
+    2885,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    1,
+    4,
+    '2024-10-30',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    2651,
+    2391,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    5,
+    6,
+    '2025-04-02',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    948,
+    947,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    5,
+    1,
+    5,
+    '2024-05-17',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    2437,
+    2292,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    4,
+    '2025-07-15',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    1475,
+    1312,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    4,
+    '2025-10-26',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1218,
+    1166,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    6,
+    '2025-08-13',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    3172,
+    3155,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    5,
+    '2024-11-04',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    2499,
+    2149,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    4,
+    '2024-08-18',
+    '18:00:00',
+    '19:54:00',
+    4.0,
+    1.9,
+    250,
+    800,
+    2863,
+    1581,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    5,
+    4,
+    '2025-01-03',
+    NULL,
+    NULL,
+    3.5,
+    0,
+    300,
+    800,
+    2774,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    5,
+    '2025-06-28',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    2525,
+    2355,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    5,
+    '2024-09-21',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3056,
+    2724,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    6,
+    '2025-09-27',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    3906,
+    3773,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    5,
+    '2024-07-24',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    3411,
+    3149,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    5,
+    5,
+    '2025-11-06',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    3898,
+    3544,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    6,
+    '2024-01-04',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3121,
+    2672,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    5,
+    6,
+    '2025-04-11',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    3803,
+    3293,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    5,
+    6,
+    '2025-12-27',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    2558,
+    2178,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    6,
+    '2025-07-22',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    640,
+    581,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    5,
+    5,
+    '2025-04-15',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    3930,
+    3360,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    5,
+    '2025-03-22',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3321,
+    3264,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    5,
+    5,
+    '2025-08-29',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    939,
+    938,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    5,
+    '2024-06-08',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    1260,
+    1148,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    6,
+    '2025-12-19',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    3885,
+    3820,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    4,
+    '2025-11-03',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    1452,
+    1409,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    6,
+    '2024-09-04',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    2927,
+    2619,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    5,
+    '2025-11-19',
+    '06:30:00',
+    '08:36:00',
+    4.0,
+    2.1,
+    350,
+    500,
+    2259,
+    966,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    4,
+    '2025-04-03',
+    '18:00:00',
+    '19:42:00',
+    3.5,
+    1.7,
+    300,
+    500,
+    2459,
+    1693,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    5,
+    '2024-12-30',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    1116,
+    995,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    5,
+    5,
+    '2025-10-24',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    3397,
+    3005,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    4,
+    '2024-11-22',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    400,
+    800,
+    1443,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    5,
+    6,
+    '2025-08-19',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    2383,
+    2263,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    4,
+    '2025-02-25',
+    '18:00:00',
+    '21:06:00',
+    4.5,
+    3.1,
+    350,
+    800,
+    2196,
+    1505,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    6,
+    '2025-05-09',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    2956,
+    2636,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    5,
+    6,
+    '2025-11-19',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2738,
+    2419,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    6,
+    '2025-06-19',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    2896,
+    2660,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    5,
+    6,
+    '2025-09-02',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    1022,
+    871,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    6,
+    '2025-12-27',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    2131,
+    1895,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    5,
+    '2024-08-17',
+    '18:00:00',
+    '21:06:00',
+    3.5,
+    3.1,
+    350,
+    800,
+    3540,
+    2777,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    6,
+    '2024-08-13',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    2067,
+    2013,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    5,
+    '2025-12-28',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    3049,
+    2828,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    6,
+    '2025-09-27',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    698,
+    686,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    2,
+    4,
+    '2024-03-09',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    893,
+    857,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    6,
+    1,
+    5,
+    '2024-04-04',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    1406,
+    1217,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2025-02-18',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    2963,
+    2883,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2025-02-19',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    694,
+    593,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2024-03-04',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    3418,
+    2914,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    5,
+    '2025-01-07',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    2992,
+    2619,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2025-05-01',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    3737,
+    3476,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    5,
+    '2025-07-31',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    781,
+    681,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    4,
+    '2024-09-16',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3836,
+    3655,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2024-11-22',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    3146,
+    2846,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2025-07-17',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    2476,
+    2184,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2025-07-30',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    644,
+    592,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    5,
+    '2025-06-10',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    2440,
+    2178,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    5,
+    '2024-09-16',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    942,
+    898,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    4,
+    '2025-08-19',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    400,
+    600,
+    2543,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2024-02-10',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    2027,
+    1821,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2025-12-24',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    893,
+    869,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    4,
+    '2025-02-25',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    2630,
+    2555,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2025-05-29',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3337,
+    2838,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    5,
+    '2025-11-24',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2588,
+    2278,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    4,
+    '2025-02-15',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    1501,
+    1303,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    5,
+    '2025-12-05',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3579,
+    3405,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    5,
+    '2025-11-29',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    1060,
+    994,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    4,
+    '2024-11-16',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    1036,
+    940,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    5,
+    '2024-03-03',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    3261,
+    2856,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    4,
+    '2025-02-20',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    1449,
+    1405,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    4,
+    '2025-05-31',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    3265,
+    2854,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2025-05-14',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3884,
+    3806,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    5,
+    '2024-04-15',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    3911,
+    3778,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    4,
+    '2025-11-02',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    3547,
+    3056,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2024-11-10',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3991,
+    3653,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    4,
+    '2025-12-18',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    3802,
+    3696,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2024-11-10',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    1988,
+    1718,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    5,
+    '2025-01-19',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2709,
+    2542,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    5,
+    '2025-04-12',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    1304,
+    1111,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2025-11-20',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    3849,
+    3827,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    4,
+    '2025-08-03',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3542,
+    3292,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    5,
+    '2025-07-20',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    3198,
+    2829,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2025-05-13',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    1694,
+    1633,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    4,
+    '2024-03-09',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3189,
+    3031,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    6,
+    '2025-11-19',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    3198,
+    2986,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    7,
+    3,
+    4,
+    '2025-05-23',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    2869,
+    2869,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    5,
+    '2025-05-30',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    2740,
+    2487,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    5,
+    6,
+    '2024-12-05',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    1130,
+    1095,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    6,
+    '2025-10-30',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    2208,
+    2052,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    5,
+    '2024-10-11',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3332,
+    3170,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    5,
+    '2024-08-05',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    2106,
+    1985,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    5,
+    '2024-05-07',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    2271,
+    2042,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    5,
+    '2024-10-19',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    3681,
+    3667,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    6,
+    '2025-03-11',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2220,
+    2059,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    4,
+    '2025-07-03',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1745,
+    1623,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    5,
+    '2024-10-29',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    1358,
+    1197,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    4,
+    '2024-08-26',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    3967,
+    3407,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    5,
+    4,
+    '2025-02-03',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    1546,
+    1440,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    6,
+    '2024-09-24',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    3194,
+    3035,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    5,
+    5,
+    '2024-02-27',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    2177,
+    2061,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    4,
+    '2024-10-15',
+    '06:30:00',
+    '08:54:00',
+    3.5,
+    2.4,
+    300,
+    800,
+    3756,
+    2956,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    5,
+    '2024-02-18',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    1415,
+    1395,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    5,
+    '2024-02-05',
+    '18:00:00',
+    '21:36:00',
+    4.0,
+    3.6,
+    300,
+    800,
+    2680,
+    1462,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    4,
+    '2025-01-23',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    2436,
+    2432,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    5,
+    6,
+    '2025-07-08',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    1282,
+    1165,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    5,
+    '2025-09-23',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    3288,
+    3257,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    5,
+    '2024-10-31',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    1740,
+    1680,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    5,
+    4,
+    '2025-04-19',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    2238,
+    2131,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    4,
+    '2024-05-08',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    1010,
+    953,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    6,
+    '2024-08-26',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    954,
+    848,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    5,
+    '2024-02-14',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    2358,
+    2347,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    5,
+    '2025-09-07',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    2391,
+    2335,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    5,
+    4,
+    '2025-12-24',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    3762,
+    3313,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    6,
+    '2024-01-31',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    742,
+    699,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    4,
+    '2025-01-22',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    1349,
+    1235,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    5,
+    '2024-08-24',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    1044,
+    992,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    5,
+    '2025-06-23',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    300,
+    500,
+    1702,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    6,
+    '2024-06-06',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    1093,
+    1001,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    5,
+    '2025-12-15',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    3062,
+    2805,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    4,
+    '2024-08-28',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    2568,
+    2328,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    6,
+    '2024-05-18',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    1468,
+    1281,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    4,
+    '2024-09-23',
+    '06:30:00',
+    '08:24:00',
+    3.5,
+    1.9,
+    350,
+    500,
+    819,
+    563,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    5,
+    '2024-04-07',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    2836,
+    2747,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    1,
+    4,
+    '2024-07-01',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    3334,
+    3293,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    2,
+    5,
+    '2025-04-30',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    690,
+    629,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    8,
+    5,
+    4,
+    '2024-12-08',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    3106,
+    3042,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    6,
+    '2025-08-27',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    3773,
+    3292,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    5,
+    6,
+    '2024-03-23',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    1999,
+    1702,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    5,
+    6,
+    '2025-05-10',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    3695,
+    3569,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    4,
+    '2025-07-04',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    2827,
+    2464,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    5,
+    '2024-09-28',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    1430,
+    1227,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    5,
+    '2025-12-15',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    2983,
+    2983,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    4,
+    '2025-03-05',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    1842,
+    1706,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    5,
+    6,
+    '2024-08-28',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    2804,
+    2667,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    4,
+    '2024-11-16',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    2229,
+    2006,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    6,
+    '2025-09-08',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    1789,
+    1659,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    5,
+    '2024-10-14',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    350,
+    800,
+    2951,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    6,
+    '2024-10-27',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    1305,
+    1191,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    5,
+    6,
+    '2025-01-21',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    350,
+    600,
+    3579,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    4,
+    '2025-12-22',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    3457,
+    3241,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    4,
+    '2024-01-14',
+    '18:00:00',
+    '20:54:00',
+    4.0,
+    2.9,
+    400,
+    500,
+    1400,
+    1073,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    4,
+    '2024-05-18',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    734,
+    638,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    5,
+    '2025-12-08',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    1420,
+    1277,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    6,
+    '2024-09-12',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    2493,
+    2477,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    6,
+    '2025-02-03',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    3560,
+    3530,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    4,
+    '2025-05-03',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3664,
+    3543,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    4,
+    '2024-09-26',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    942,
+    884,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    5,
+    6,
+    '2025-07-06',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    1614,
+    1586,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    5,
+    4,
+    '2024-12-18',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    782,
+    715,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    5,
+    '2025-12-18',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    563,
+    559,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    6,
+    '2025-07-11',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    1238,
+    1162,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    4,
+    '2024-01-10',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    3407,
+    3056,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    5,
+    '2025-12-10',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    1598,
+    1434,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    6,
+    '2025-04-12',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2164,
+    2070,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    6,
+    '2025-07-10',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    2261,
+    2152,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    5,
+    '2025-11-07',
+    '18:00:00',
+    '19:42:00',
+    4.0,
+    1.7,
+    400,
+    600,
+    2776,
+    2170,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    4,
+    '2025-05-18',
+    NULL,
+    NULL,
+    3.5,
+    0,
+    400,
+    800,
+    1717,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    5,
+    '2025-03-20',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    3625,
+    3598,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    6,
+    '2025-04-08',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    2380,
+    2058,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    6,
+    '2025-06-20',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    1044,
+    931,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    6,
+    '2025-03-24',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    2577,
+    2387,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    6,
+    '2024-06-01',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    3089,
+    2821,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    5,
+    5,
+    '2025-04-05',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    3776,
+    3292,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    1,
+    6,
+    '2025-07-16',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    2431,
+    2144,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    2,
+    5,
+    '2024-03-11',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    1296,
+    1247,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    9,
+    5,
+    5,
+    '2024-09-30',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    2734,
+    2343,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    5,
+    6,
+    '2024-02-12',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    2056,
+    1849,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    4,
+    '2025-05-06',
+    '12:30:00',
+    '16:00:00',
+    4.5,
+    3.5,
+    300,
+    800,
+    859,
+    403,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    5,
+    '2024-08-03',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    2589,
+    2528,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    5,
+    '2025-11-13',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    1853,
+    1720,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    4,
+    '2024-12-03',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    1237,
+    1130,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    5,
+    '2024-02-17',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2855,
+    2807,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    6,
+    '2025-04-04',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3404,
+    2922,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    5,
+    5,
+    '2025-09-06',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    2897,
+    2710,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    5,
+    5,
+    '2024-02-23',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    2970,
+    2715,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    5,
+    6,
+    '2024-10-02',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    754,
+    733,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    5,
+    '2024-05-05',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    527,
+    515,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    6,
+    '2025-03-10',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    2421,
+    2194,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    5,
+    4,
+    '2024-06-22',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    1651,
+    1598,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    5,
+    5,
+    '2024-01-13',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    1121,
+    966,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    4,
+    '2025-10-10',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    3763,
+    3528,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    6,
+    '2025-04-08',
+    NULL,
+    NULL,
+    4.0,
+    0,
+    300,
+    500,
+    1884,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    5,
+    '2025-12-22',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    2464,
+    2117,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    4,
+    '2024-05-13',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    3122,
+    2753,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    6,
+    '2024-11-04',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    1683,
+    1444,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    6,
+    '2025-04-12',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    2985,
+    2597,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    5,
+    '2025-09-08',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    2965,
+    2562,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    5,
+    '2025-07-20',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    2689,
+    2561,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    4,
+    '2025-09-02',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    1552,
+    1485,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    5,
+    4,
+    '2025-02-28',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    1507,
+    1340,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    4,
+    '2025-11-06',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    1508,
+    1447,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    6,
+    '2024-11-16',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    1330,
+    1273,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    5,
+    '2025-03-31',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    2356,
+    2282,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    5,
+    6,
+    '2025-06-29',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    2004,
+    1993,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    4,
+    '2025-02-22',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    982,
+    851,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    4,
+    '2024-11-16',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    1039,
+    916,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    5,
+    '2024-08-17',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    1838,
+    1623,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    5,
+    '2025-01-13',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    2103,
+    1974,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    5,
+    5,
+    '2024-09-19',
+    '18:00:00',
+    '20:06:00',
+    4.0,
+    2.1,
+    350,
+    800,
+    3583,
+    1581,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    5,
+    5,
+    '2024-05-16',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3280,
+    3160,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    6,
+    '2024-03-19',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    2516,
+    2289,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    4,
+    '2024-01-19',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    2322,
+    1992,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    1,
+    5,
+    '2025-09-15',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    2600,
+    2375,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    2,
+    5,
+    '2024-07-21',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    1418,
+    1206,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    5,
+    6,
+    '2024-11-18',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    1561,
+    1434,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    10,
+    5,
+    4,
+    '2025-12-05',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    3216,
+    2811,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    5,
+    4,
+    '2025-07-16',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    3841,
+    3407,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    5,
+    4,
+    '2024-03-22',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3278,
+    2810,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    5,
+    '2025-05-27',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    747,
+    721,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    6,
+    '2025-12-03',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    1677,
+    1507,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    4,
+    '2025-09-24',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    1454,
+    1394,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    5,
+    5,
+    '2024-08-09',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2327,
+    2248,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    5,
+    5,
+    '2025-04-03',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    3077,
+    3046,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    2,
+    6,
+    '2024-08-11',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    3415,
+    3089,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    5,
+    '2025-04-05',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    1034,
+    912,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    2,
+    4,
+    '2024-09-13',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    2363,
+    2087,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    5,
+    '2024-08-11',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3617,
+    3179,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    5,
+    '2024-10-24',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    2684,
+    2493,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    4,
+    '2025-12-05',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    300,
+    600,
+    1790,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    5,
+    4,
+    '2025-01-31',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    2791,
+    2652,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    5,
+    4,
+    '2025-04-11',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    2781,
+    2708,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    5,
+    '2025-04-25',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    1978,
+    1813,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    2,
+    6,
+    '2025-09-14',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    2578,
+    2342,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    2,
+    6,
+    '2024-12-27',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3774,
+    3765,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    5,
+    4,
+    '2025-09-20',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3406,
+    3036,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    5,
+    4,
+    '2024-08-19',
+    '06:30:00',
+    '09:12:00',
+    3.5,
+    2.7,
+    350,
+    600,
+    2509,
+    1130,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    5,
+    '2024-04-03',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    1354,
+    1234,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    6,
+    '2024-07-21',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    881,
+    800,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    2,
+    6,
+    '2024-07-10',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    1196,
+    1088,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    6,
+    '2025-12-30',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3836,
+    3412,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    2,
+    5,
+    '2024-03-28',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    2567,
+    2394,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    6,
+    '2024-04-10',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    1127,
+    968,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    2,
+    6,
+    '2025-03-03',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    2828,
+    2497,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    5,
+    5,
+    '2025-03-18',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    2340,
+    2335,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    5,
+    '2024-02-21',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    2466,
+    2258,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    6,
+    '2024-04-20',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3982,
+    3591,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    2,
+    5,
+    '2025-06-12',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    1391,
+    1288,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    2,
+    5,
+    '2024-10-31',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    1438,
+    1389,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    5,
+    5,
+    '2025-07-25',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    1667,
+    1600,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    5,
+    5,
+    '2025-01-04',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    3087,
+    2949,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    5,
+    6,
+    '2024-07-23',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    3713,
+    3537,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    5,
+    6,
+    '2025-03-28',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    1637,
+    1510,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    4,
+    '2025-08-19',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    2897,
+    2680,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    6,
+    '2025-10-24',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    1084,
+    940,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    1,
+    4,
+    '2025-08-14',
+    '12:30:00',
+    '14:12:00',
+    3.5,
+    1.7,
+    250,
+    500,
+    2388,
+    1407,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    11,
+    2,
+    4,
+    '2025-11-29',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    1608,
+    1378,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    5,
+    '2025-07-18',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    3710,
+    3217,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    5,
+    '2024-08-01',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    3491,
+    3116,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    2,
+    6,
+    '2024-12-16',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    1367,
+    1307,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    5,
+    5,
+    '2025-12-02',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3765,
+    3479,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    6,
+    '2024-07-05',
+    NULL,
+    NULL,
+    3.5,
+    0,
+    400,
+    600,
+    1158,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    6,
+    '2024-05-28',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3192,
+    3130,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    6,
+    '2024-11-15',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    2670,
+    2296,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    2,
+    5,
+    '2024-06-25',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    1481,
+    1433,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    4,
+    '2024-09-16',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    2209,
+    2022,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    5,
+    5,
+    '2025-06-25',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2360,
+    2175,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    2,
+    6,
+    '2024-09-08',
+    NULL,
+    NULL,
+    3.5,
+    0,
+    300,
+    800,
+    1572,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    2,
+    4,
+    '2024-03-23',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    1785,
+    1727,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    5,
+    5,
+    '2025-11-29',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    1393,
+    1283,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    5,
+    5,
+    '2024-02-20',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    2762,
+    2689,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    6,
+    '2024-05-31',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3921,
+    3513,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    4,
+    '2025-03-29',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    1645,
+    1608,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    5,
+    6,
+    '2025-10-04',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    1256,
+    1127,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    2,
+    5,
+    '2025-11-11',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    3358,
+    3178,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    6,
+    '2024-04-07',
+    '12:30:00',
+    '15:30:00',
+    3.5,
+    3.0,
+    400,
+    800,
+    619,
+    469,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    4,
+    '2025-09-30',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    1916,
+    1804,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    4,
+    '2025-07-26',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    3513,
+    3481,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    5,
+    6,
+    '2024-12-15',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    2549,
+    2216,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    2,
+    5,
+    '2025-03-16',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    912,
+    839,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    5,
+    6,
+    '2024-12-11',
+    '12:30:00',
+    '14:54:00',
+    4.5,
+    2.4,
+    350,
+    800,
+    2434,
+    1837,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    5,
+    4,
+    '2025-03-29',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3346,
+    3062,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    5,
+    6,
+    '2025-04-03',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    3485,
+    3192,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    2,
+    6,
+    '2025-02-14',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    3207,
+    3089,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    5,
+    6,
+    '2025-01-24',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    1375,
+    1318,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    5,
+    5,
+    '2025-06-15',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    2496,
+    2461,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    4,
+    '2024-09-23',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2822,
+    2641,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    2,
+    4,
+    '2025-12-16',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    1408,
+    1301,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    5,
+    4,
+    '2024-06-30',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    786,
+    736,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    4,
+    '2024-08-28',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    867,
+    751,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    2,
+    5,
+    '2025-07-09',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    1052,
+    1031,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    4,
+    '2025-02-01',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    2294,
+    2040,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    4,
+    '2025-08-21',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1718,
+    1603,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    2,
+    5,
+    '2024-08-05',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    2932,
+    2727,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    1,
+    5,
+    '2025-03-14',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    1887,
+    1881,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    2,
+    6,
+    '2024-09-22',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    1241,
+    1207,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    12,
+    5,
+    6,
+    '2024-04-02',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    1079,
+    930,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    6,
+    '2025-12-13',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2877,
+    2834,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    6,
+    '2024-10-10',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    1807,
+    1607,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    6,
+    '2024-02-29',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    2555,
+    2250,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2025-06-09',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    849,
+    841,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2024-10-04',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    2204,
+    2014,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2025-11-23',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    1351,
+    1302,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2025-04-09',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    2938,
+    2930,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2024-10-14',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    2238,
+    2047,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2024-07-28',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    586,
+    516,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2025-11-13',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    1936,
+    1804,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2025-01-20',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    3728,
+    3448,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2025-08-30',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    3733,
+    3643,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2024-10-16',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    712,
+    648,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    6,
+    '2025-09-28',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3982,
+    3857,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2025-12-15',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    2727,
+    2569,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2025-11-27',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    1550,
+    1370,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    6,
+    '2025-06-11',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    3154,
+    3074,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    6,
+    '2024-12-24',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    929,
+    789,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2024-06-06',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    1302,
+    1127,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2025-11-01',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    1679,
+    1481,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2024-03-29',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    2668,
+    2666,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2024-04-26',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    2869,
+    2474,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2024-08-24',
+    NULL,
+    NULL,
+    4.0,
+    0,
+    300,
+    600,
+    1376,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2024-06-16',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    3692,
+    3534,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2025-06-22',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    988,
+    954,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2024-11-29',
+    '06:30:00',
+    '09:36:00',
+    3.5,
+    3.1,
+    400,
+    600,
+    979,
+    342,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2025-03-20',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    1609,
+    1468,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2025-07-20',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    1581,
+    1391,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2025-03-17',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    3180,
+    3146,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2025-04-25',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    3535,
+    3344,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    6,
+    '2025-11-04',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    505,
+    473,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    6,
+    '2024-08-23',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    1725,
+    1689,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2024-09-19',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    1797,
+    1637,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2025-11-01',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    2410,
+    2318,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2024-03-16',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    1683,
+    1433,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    6,
+    '2024-01-03',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    1084,
+    1015,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    6,
+    '2024-01-03',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    2868,
+    2697,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    4,
+    '2025-11-14',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    1761,
+    1524,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2025-09-30',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    2166,
+    1954,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    13,
+    8,
+    5,
+    '2024-10-26',
+    '06:30:00',
+    '08:24:00',
+    3.5,
+    1.9,
+    400,
+    500,
+    3451,
+    2066,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    2,
+    5,
+    '2024-04-17',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    400,
+    500,
+    3744,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    5,
+    5,
+    '2024-05-16',
+    '18:00:00',
+    '20:06:00',
+    4.0,
+    2.1,
+    300,
+    500,
+    2621,
+    1284,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    6,
+    '2024-02-25',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3981,
+    3903,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    5,
+    6,
+    '2025-02-15',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    2625,
+    2277,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    2,
+    4,
+    '2024-07-12',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    400,
+    800,
+    1370,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    2,
+    5,
+    '2025-02-08',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    2219,
+    2116,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    2,
+    5,
+    '2025-05-31',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    1345,
+    1149,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    6,
+    '2024-07-21',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    2423,
+    2119,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    5,
+    6,
+    '2024-01-21',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    3732,
+    3569,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    2,
+    5,
+    '2024-12-30',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    1540,
+    1472,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    5,
+    '2025-04-24',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    729,
+    633,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    2,
+    5,
+    '2024-01-19',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    3076,
+    2747,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    2,
+    5,
+    '2024-05-18',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2141,
+    2050,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    5,
+    5,
+    '2025-11-14',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    1174,
+    1101,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    2,
+    5,
+    '2024-08-25',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    3517,
+    3470,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    4,
+    '2025-10-09',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    911,
+    843,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    4,
+    '2025-05-10',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    1153,
+    1127,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    2,
+    4,
+    '2024-08-31',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    868,
+    820,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    5,
+    '2025-04-13',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    696,
+    694,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    4,
+    '2024-01-07',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3607,
+    3568,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    5,
+    4,
+    '2024-01-05',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    3010,
+    2760,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    5,
+    6,
+    '2024-07-01',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3000,
+    2747,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    5,
+    5,
+    '2025-12-23',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    3711,
+    3448,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    4,
+    '2024-09-09',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1466,
+    1297,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    5,
+    4,
+    '2025-02-20',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    2122,
+    2091,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    5,
+    '2024-01-17',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2856,
+    2678,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    5,
+    5,
+    '2025-03-03',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3281,
+    2831,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    5,
+    '2025-03-18',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    1409,
+    1281,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    4,
+    '2024-12-25',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    612,
+    529,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    6,
+    '2024-03-22',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    2891,
+    2484,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    4,
+    '2025-10-29',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    3865,
+    3686,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    5,
+    5,
+    '2025-01-12',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    897,
+    839,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    6,
+    '2024-06-17',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    3273,
+    2828,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    4,
+    '2025-03-03',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    2714,
+    2312,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    6,
+    '2024-09-14',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    2934,
+    2628,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    4,
+    '2024-06-24',
+    NULL,
+    NULL,
+    3.5,
+    0,
+    350,
+    800,
+    1235,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    5,
+    5,
+    '2024-09-28',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3682,
+    3576,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    2,
+    6,
+    '2024-01-14',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    1533,
+    1398,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    5,
+    4,
+    '2025-03-04',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2877,
+    2513,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    14,
+    1,
+    6,
+    '2024-12-24',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    1693,
+    1693,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    4,
+    '2024-10-20',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    2712,
+    2327,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    6,
+    '2025-10-17',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    1145,
+    1096,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    5,
+    5,
+    '2025-09-22',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    1960,
+    1676,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    5,
+    '2024-02-25',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2564,
+    2441,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    5,
+    '2025-05-22',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    1239,
+    1142,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    6,
+    '2025-01-25',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    3016,
+    2592,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    5,
+    '2024-01-25',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    693,
+    652,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    6,
+    '2025-06-18',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3687,
+    3527,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    6,
+    '2025-06-21',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    1497,
+    1486,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    6,
+    '2025-02-07',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    3080,
+    2777,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    4,
+    '2025-09-18',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    1705,
+    1661,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    4,
+    '2024-11-01',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    2759,
+    2426,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    6,
+    '2025-01-02',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    2607,
+    2494,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    4,
+    '2024-12-05',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    3909,
+    3455,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    5,
+    5,
+    '2025-11-05',
+    '18:00:00',
+    '19:30:00',
+    3.5,
+    1.5,
+    250,
+    600,
+    1159,
+    548,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    4,
+    '2024-04-20',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    3847,
+    3580,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    5,
+    6,
+    '2025-09-24',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3979,
+    3945,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    6,
+    '2025-07-28',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    3411,
+    3397,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    4,
+    '2025-07-05',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    719,
+    651,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    4,
+    '2024-06-20',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2237,
+    1901,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    5,
+    4,
+    '2025-03-10',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    2614,
+    2374,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    4,
+    '2024-03-01',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    2734,
+    2734,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    6,
+    '2024-08-06',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3552,
+    3226,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    5,
+    4,
+    '2025-03-16',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    1368,
+    1272,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    5,
+    4,
+    '2025-04-27',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    1139,
+    1132,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    5,
+    5,
+    '2024-06-09',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    2607,
+    2408,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    5,
+    '2025-10-16',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    1184,
+    1106,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    6,
+    '2025-03-24',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    796,
+    756,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    4,
+    '2024-03-25',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    2089,
+    1844,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    5,
+    '2025-08-15',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3889,
+    3822,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    5,
+    5,
+    '2024-07-29',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    3121,
+    2795,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    5,
+    '2024-02-07',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    831,
+    762,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    4,
+    '2025-11-07',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    3918,
+    3847,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    4,
+    '2025-08-05',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    3619,
+    3559,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    5,
+    5,
+    '2025-07-12',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    1950,
+    1749,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    4,
+    '2025-10-24',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    844,
+    762,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    2,
+    4,
+    '2025-10-26',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    943,
+    886,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    6,
+    '2025-12-26',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    1006,
+    992,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    4,
+    '2025-02-11',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    2989,
+    2972,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    15,
+    1,
+    5,
+    '2025-09-25',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    3635,
+    3235,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    4,
+    '2025-09-20',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    532,
+    458,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    4,
+    '2024-02-13',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    1930,
+    1738,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    1,
+    6,
+    '2024-12-09',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    2835,
+    2805,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    4,
+    '2024-08-19',
+    '12:30:00',
+    '14:12:00',
+    3.5,
+    1.7,
+    400,
+    500,
+    2063,
+    1528,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    4,
+    '2025-09-06',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    1997,
+    1936,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    1,
+    6,
+    '2025-08-27',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3284,
+    2791,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    4,
+    '2025-11-04',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    3869,
+    3417,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    6,
+    '2024-03-19',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    1625,
+    1605,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    1,
+    6,
+    '2025-12-27',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    2001,
+    1859,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    6,
+    '2025-06-06',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    3494,
+    3481,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    5,
+    '2025-07-09',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    1159,
+    1085,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    5,
+    '2024-03-26',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    786,
+    748,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    5,
+    '2025-10-07',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    3253,
+    3187,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    1,
+    4,
+    '2025-06-05',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2849,
+    2701,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    5,
+    '2024-10-21',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    3060,
+    2964,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    5,
+    '2024-12-26',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    1121,
+    1021,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    6,
+    '2025-01-01',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    783,
+    727,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    5,
+    '2024-04-15',
+    '12:30:00',
+    '15:36:00',
+    3.5,
+    3.1,
+    350,
+    600,
+    709,
+    521,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    6,
+    '2024-02-23',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    2429,
+    2158,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    1,
+    6,
+    '2025-01-05',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    1275,
+    1253,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    1,
+    6,
+    '2024-12-10',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3937,
+    3362,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    5,
+    '2024-01-20',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    2240,
+    2010,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    5,
+    '2025-11-04',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    2342,
+    2071,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    1,
+    6,
+    '2024-08-12',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3025,
+    2776,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    5,
+    '2024-04-30',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    3395,
+    3121,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    1,
+    4,
+    '2025-08-07',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3559,
+    3128,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    5,
+    '2025-05-29',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    1437,
+    1358,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    6,
+    '2024-10-24',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2884,
+    2848,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    4,
+    '2024-04-04',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2445,
+    2125,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    5,
+    '2024-02-14',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    3173,
+    3088,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    4,
+    '2025-07-17',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    2815,
+    2787,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    5,
+    '2025-07-31',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    2487,
+    2175,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    1,
+    4,
+    '2024-01-06',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    3510,
+    3410,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    6,
+    '2024-11-08',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2579,
+    2535,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    5,
+    '2024-09-03',
+    '12:30:00',
+    '15:00:00',
+    4.0,
+    2.5,
+    250,
+    500,
+    841,
+    561,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    1,
+    6,
+    '2024-11-25',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    1888,
+    1821,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    1,
+    4,
+    '2024-01-20',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    2352,
+    2220,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    6,
+    '2024-08-24',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    2408,
+    2301,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    2,
+    4,
+    '2024-09-30',
+    '12:30:00',
+    '14:48:00',
+    4.0,
+    2.3,
+    400,
+    800,
+    899,
+    577,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    16,
+    5,
+    6,
+    '2025-11-01',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    971,
+    930,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    5,
+    '2025-10-28',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    3039,
+    2610,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    1,
+    4,
+    '2025-03-10',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2464,
+    2105,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    4,
+    '2025-05-05',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    3248,
+    2969,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    4,
+    '2024-12-01',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    2615,
+    2274,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    4,
+    '2025-06-13',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    2864,
+    2582,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    1,
+    6,
+    '2024-09-02',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    2363,
+    2210,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    1,
+    4,
+    '2024-11-01',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    1445,
+    1274,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    5,
+    '2025-10-15',
+    '12:30:00',
+    '14:48:00',
+    3.5,
+    2.3,
+    300,
+    600,
+    2648,
+    1628,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    5,
+    '2025-03-21',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    3587,
+    3271,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    6,
+    '2025-10-07',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    1929,
+    1738,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    4,
+    '2025-02-10',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3261,
+    2963,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    4,
+    '2024-06-23',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    3364,
+    3111,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    1,
+    5,
+    '2025-03-29',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    2173,
+    2105,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    4,
+    '2024-08-10',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3725,
+    3629,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    1,
+    4,
+    '2025-01-28',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    1284,
+    1240,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    1,
+    5,
+    '2024-02-13',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    1997,
+    1759,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    4,
+    '2024-12-21',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    3458,
+    3354,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    4,
+    '2024-09-07',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3701,
+    3614,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    1,
+    5,
+    '2024-06-18',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2191,
+    2121,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    1,
+    5,
+    '2024-07-27',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    1340,
+    1309,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    6,
+    '2024-12-09',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    2805,
+    2588,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    1,
+    4,
+    '2025-01-16',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    924,
+    911,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    5,
+    '2025-04-27',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    3851,
+    3501,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    4,
+    '2024-06-21',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    793,
+    752,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    6,
+    '2024-06-12',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    1019,
+    959,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    4,
+    '2024-10-06',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    2706,
+    2439,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    5,
+    '2024-02-04',
+    '18:00:00',
+    '19:54:00',
+    4.5,
+    1.9,
+    400,
+    800,
+    3091,
+    1258,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    6,
+    '2025-04-15',
+    '18:00:00',
+    '19:48:00',
+    3.5,
+    1.8,
+    300,
+    600,
+    1373,
+    857,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    5,
+    '2025-07-19',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    1417,
+    1294,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    4,
+    '2025-06-08',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    1599,
+    1469,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    6,
+    '2025-04-20',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    794,
+    785,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    4,
+    '2025-08-03',
+    '12:30:00',
+    '14:30:00',
+    4.5,
+    2.0,
+    250,
+    600,
+    3222,
+    1777,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    1,
+    5,
+    '2025-01-26',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    2852,
+    2749,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    6,
+    '2025-10-09',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    3045,
+    2860,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    6,
+    '2025-05-21',
+    '12:30:00',
+    '15:12:00',
+    4.0,
+    2.7,
+    300,
+    800,
+    3767,
+    1674,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    1,
+    6,
+    '2024-09-22',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    2301,
+    2016,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    4,
+    '2025-03-04',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    1479,
+    1277,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    5,
+    '2025-07-22',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    1577,
+    1559,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    2,
+    6,
+    '2025-06-27',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    826,
+    740,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    17,
+    5,
+    6,
+    '2024-02-19',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    849,
+    818,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2024-06-14',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2160,
+    2000,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    6,
+    '2024-10-09',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    2332,
+    2160,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    4,
+    '2024-02-18',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    3009,
+    2627,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    6,
+    '2025-06-04',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    2763,
+    2566,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2024-03-05',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    1229,
+    1114,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    6,
+    '2024-07-17',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    828,
+    811,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    6,
+    '2024-08-09',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    1854,
+    1619,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2025-06-12',
+    NULL,
+    NULL,
+    3.5,
+    0,
+    350,
+    800,
+    3386,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    4,
+    '2024-01-16',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    3861,
+    3839,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    4,
+    '2024-04-27',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    1019,
+    1006,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    4,
+    '2024-01-15',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    1080,
+    927,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    6,
+    '2025-07-30',
+    '18:00:00',
+    '20:42:00',
+    4.0,
+    2.7,
+    350,
+    600,
+    1729,
+    1143,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    4,
+    '2024-06-25',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    1468,
+    1391,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2025-02-13',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    3688,
+    3493,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    6,
+    '2025-06-24',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3940,
+    3665,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    4,
+    '2024-08-04',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    2454,
+    2281,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2025-11-23',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    2956,
+    2680,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    6,
+    '2025-06-18',
+    '06:30:00',
+    '08:18:00',
+    3.5,
+    1.8,
+    350,
+    500,
+    3402,
+    2096,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2024-01-24',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    1844,
+    1681,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2024-06-15',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    3428,
+    3256,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    6,
+    '2025-05-17',
+    '18:00:00',
+    '19:42:00',
+    3.5,
+    1.7,
+    300,
+    500,
+    1080,
+    514,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2024-01-07',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2880,
+    2713,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    4,
+    '2025-12-23',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    2254,
+    2144,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2025-01-31',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    3240,
+    2952,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2025-11-12',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    2224,
+    2214,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2025-05-12',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    1032,
+    990,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    4,
+    '2024-11-01',
+    '06:30:00',
+    '08:54:00',
+    3.5,
+    2.4,
+    350,
+    800,
+    511,
+    180,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    4,
+    '2024-03-03',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3549,
+    3078,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2024-08-14',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    668,
+    666,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2024-01-17',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3597,
+    3512,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    4,
+    '2024-03-22',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    2788,
+    2720,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    6,
+    '2024-07-17',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    2120,
+    1926,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2024-03-26',
+    '06:30:00',
+    '09:00:00',
+    3.5,
+    2.5,
+    350,
+    500,
+    2113,
+    1001,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    4,
+    '2025-08-09',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    847,
+    771,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    4,
+    '2025-02-16',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    2404,
+    2111,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2024-08-30',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    1380,
+    1174,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    5,
+    '2024-05-26',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1966,
+    1936,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    4,
+    '2024-02-26',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    1185,
+    1028,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    6,
+    '2024-11-19',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    2602,
+    2438,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    18,
+    3,
+    6,
+    '2024-03-07',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    2252,
+    2125,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    4,
+    '2025-02-26',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    3954,
+    3687,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    5,
+    6,
+    '2025-03-03',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    2469,
+    2257,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    2,
+    4,
+    '2025-12-14',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2536,
+    2373,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    5,
+    6,
+    '2024-06-09',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    3497,
+    3381,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    4,
+    '2024-05-20',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    677,
+    656,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    6,
+    '2024-01-02',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    2036,
+    1948,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    6,
+    '2024-02-16',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    3384,
+    3335,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    5,
+    '2024-11-09',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    3982,
+    3631,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    2,
+    4,
+    '2024-04-23',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    1420,
+    1281,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    5,
+    6,
+    '2024-08-24',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    2081,
+    1780,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    5,
+    5,
+    '2024-05-22',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    3086,
+    3029,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    5,
+    '2024-07-22',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    2252,
+    1921,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    2,
+    4,
+    '2025-08-27',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    1537,
+    1359,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    4,
+    '2024-07-17',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    2568,
+    2253,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    5,
+    '2025-07-19',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    1744,
+    1540,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    5,
+    '2025-07-15',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3147,
+    3120,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    6,
+    '2024-08-04',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3437,
+    3207,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    5,
+    4,
+    '2025-07-15',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    1111,
+    962,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    4,
+    '2024-11-13',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    3819,
+    3639,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    2,
+    4,
+    '2024-10-15',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    2225,
+    1961,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    2,
+    5,
+    '2025-09-16',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    1737,
+    1610,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    2,
+    5,
+    '2024-04-07',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3193,
+    3132,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    5,
+    4,
+    '2024-10-02',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    557,
+    493,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    5,
+    5,
+    '2025-12-31',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    3149,
+    3140,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    5,
+    5,
+    '2025-09-15',
+    '18:00:00',
+    '22:00:00',
+    4.5,
+    4.0,
+    300,
+    500,
+    557,
+    292,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    2,
+    6,
+    '2025-12-27',
+    '06:30:00',
+    '09:48:00',
+    4.0,
+    3.3,
+    250,
+    600,
+    2903,
+    1268,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    5,
+    5,
+    '2025-06-29',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    1761,
+    1757,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    4,
+    '2024-11-11',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    3841,
+    3558,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    2,
+    4,
+    '2024-06-22',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    3045,
+    2661,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    5,
+    5,
+    '2025-02-09',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    3194,
+    3164,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    5,
+    5,
+    '2025-11-12',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    1046,
+    900,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    2,
+    5,
+    '2024-08-12',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    1875,
+    1806,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    6,
+    '2024-08-19',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    1939,
+    1700,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    5,
+    6,
+    '2024-07-20',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    3686,
+    3587,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    2,
+    6,
+    '2024-06-26',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    1835,
+    1564,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    4,
+    '2024-07-22',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3356,
+    3234,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    6,
+    '2024-04-10',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    1162,
+    1033,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    5,
+    '2024-09-03',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    683,
+    636,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    1,
+    6,
+    '2025-09-01',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    1251,
+    1123,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    19,
+    2,
+    5,
+    '2025-06-30',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    3604,
+    3242,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    5,
+    5,
+    '2025-02-13',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    886,
+    854,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    2,
+    5,
+    '2024-08-12',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    3291,
+    2898,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    2,
+    4,
+    '2024-06-11',
+    '12:30:00',
+    '15:06:00',
+    4.5,
+    2.6,
+    350,
+    800,
+    981,
+    504,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    4,
+    '2025-10-09',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    2364,
+    2287,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    5,
+    5,
+    '2025-02-02',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    3503,
+    3156,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    5,
+    '2025-12-27',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    702,
+    630,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    2,
+    4,
+    '2024-02-19',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    2876,
+    2551,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    5,
+    6,
+    '2025-08-26',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    1472,
+    1431,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    6,
+    '2024-04-13',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    3124,
+    3049,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    5,
+    5,
+    '2024-11-23',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    744,
+    708,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    6,
+    '2024-05-02',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    1504,
+    1339,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    5,
+    '2025-10-30',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    3421,
+    3248,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    6,
+    '2024-08-04',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3940,
+    3755,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    5,
+    '2024-09-17',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    612,
+    573,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    2,
+    6,
+    '2024-11-13',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    1614,
+    1567,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    5,
+    '2024-07-30',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    607,
+    569,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    6,
+    '2024-06-12',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    3854,
+    3802,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    2,
+    4,
+    '2024-07-18',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    3603,
+    3298,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    5,
+    6,
+    '2024-06-30',
+    '06:30:00',
+    '08:30:00',
+    4.0,
+    2.0,
+    300,
+    600,
+    2977,
+    1681,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    5,
+    4,
+    '2025-05-26',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    2697,
+    2477,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    5,
+    5,
+    '2025-01-08',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    1457,
+    1298,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    5,
+    4,
+    '2024-08-08',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    1484,
+    1323,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    6,
+    '2025-11-26',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    1782,
+    1734,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    2,
+    6,
+    '2025-08-08',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    2453,
+    2238,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    6,
+    '2024-12-30',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    1147,
+    1060,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    5,
+    '2024-04-06',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    2514,
+    2334,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    5,
+    6,
+    '2024-06-11',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    1956,
+    1873,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    2,
+    6,
+    '2024-12-21',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    3510,
+    3321,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    2,
+    5,
+    '2024-06-26',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    3848,
+    3783,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    2,
+    5,
+    '2024-10-05',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    666,
+    637,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    6,
+    '2025-07-26',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3737,
+    3591,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    4,
+    '2024-07-10',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    3424,
+    3085,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    2,
+    6,
+    '2025-08-30',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1687,
+    1613,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    2,
+    6,
+    '2025-07-17',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    2409,
+    2353,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    5,
+    6,
+    '2024-10-01',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    2803,
+    2748,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    1,
+    6,
+    '2024-04-02',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    3468,
+    3345,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    5,
+    5,
+    '2024-02-08',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    658,
+    622,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    5,
+    5,
+    '2024-04-04',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2095,
+    1934,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    2,
+    4,
+    '2025-08-02',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    2197,
+    1903,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    20,
+    5,
+    5,
+    '2024-05-29',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    2138,
+    2052,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    2,
+    4,
+    '2024-12-21',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    3852,
+    3591,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    2,
+    5,
+    '2024-11-22',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    3474,
+    3136,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    1,
+    5,
+    '2025-12-24',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    3519,
+    3071,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    5,
+    '2025-01-28',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    3433,
+    3028,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    2,
+    5,
+    '2024-05-25',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    536,
+    506,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    2,
+    4,
+    '2024-09-10',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    1069,
+    932,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    1,
+    4,
+    '2025-02-22',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    1908,
+    1657,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    4,
+    '2025-04-27',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    2521,
+    2220,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    5,
+    '2024-08-12',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    2133,
+    1911,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    2,
+    5,
+    '2025-09-07',
+    '18:00:00',
+    '19:42:00',
+    4.0,
+    1.7,
+    250,
+    600,
+    3047,
+    1488,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    1,
+    5,
+    '2025-05-07',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1484,
+    1372,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    5,
+    '2024-07-14',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    2652,
+    2441,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    2,
+    4,
+    '2024-05-19',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    3986,
+    3859,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    1,
+    5,
+    '2025-11-25',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    3533,
+    3205,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    4,
+    '2024-09-08',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    3184,
+    2931,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    5,
+    '2025-04-28',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    2847,
+    2434,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    1,
+    6,
+    '2025-04-24',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    1997,
+    1876,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    5,
+    '2025-01-28',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    2853,
+    2720,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    6,
+    '2025-10-16',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    2761,
+    2695,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    1,
+    6,
+    '2025-12-27',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    1026,
+    963,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    2,
+    4,
+    '2025-03-16',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2297,
+    2261,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    1,
+    5,
+    '2025-01-14',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    1266,
+    1244,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    1,
+    4,
+    '2025-10-11',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    3403,
+    3089,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    6,
+    '2025-11-26',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    350,
+    500,
+    3832,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    2,
+    6,
+    '2025-05-12',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    3827,
+    3812,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    1,
+    6,
+    '2024-03-27',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    2475,
+    2148,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    5,
+    '2025-03-20',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    1177,
+    1057,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    2,
+    6,
+    '2024-05-25',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    784,
+    748,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    1,
+    6,
+    '2025-06-22',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    1040,
+    965,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    5,
+    '2025-11-14',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    1137,
+    1032,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    2,
+    6,
+    '2024-02-22',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    2066,
+    1873,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    4,
+    '2024-08-27',
+    '06:30:00',
+    '08:18:00',
+    4.5,
+    1.8,
+    400,
+    800,
+    3961,
+    2177,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    6,
+    '2025-09-22',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3949,
+    3512,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    4,
+    '2024-04-28',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    1270,
+    1210,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    4,
+    '2024-10-31',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    2872,
+    2709,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    4,
+    '2025-11-24',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    3302,
+    3172,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    2,
+    5,
+    '2025-09-01',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    873,
+    787,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    2,
+    5,
+    '2025-09-01',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    3567,
+    3110,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    2,
+    5,
+    '2025-10-11',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    2266,
+    2064,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    21,
+    5,
+    4,
+    '2024-10-06',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    2777,
+    2483,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2024-09-06',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    1357,
+    1273,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2025-01-27',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    1760,
+    1725,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    5,
+    '2024-01-07',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    1283,
+    1116,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    5,
+    '2024-11-21',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    3587,
+    3150,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2024-10-27',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    3800,
+    3753,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2024-06-29',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    714,
+    696,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2025-09-01',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2690,
+    2365,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2024-12-09',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    621,
+    530,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    5,
+    '2024-12-27',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    2056,
+    1853,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2025-03-07',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    350,
+    600,
+    526,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2025-06-10',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    1914,
+    1836,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2024-04-04',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    2595,
+    2211,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2025-03-30',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    2894,
+    2750,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2024-02-08',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    1668,
+    1429,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2025-07-17',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    3468,
+    3344,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    5,
+    '2025-08-30',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    3373,
+    3183,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2024-07-09',
+    '18:00:00',
+    '20:36:00',
+    3.5,
+    2.6,
+    250,
+    600,
+    3473,
+    2753,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    5,
+    '2025-11-11',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1054,
+    958,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    5,
+    '2025-06-15',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    2225,
+    2199,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    5,
+    '2024-02-03',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    746,
+    736,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2024-04-30',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    892,
+    763,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2024-04-21',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    512,
+    506,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2024-10-30',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    1131,
+    1024,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    5,
+    '2025-05-29',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    1081,
+    1053,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2024-08-24',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    2640,
+    2354,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2024-02-16',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    3831,
+    3311,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2024-12-02',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    2723,
+    2473,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    5,
+    '2025-05-01',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    1843,
+    1697,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2025-04-25',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    3210,
+    2732,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2025-12-03',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    3355,
+    2979,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2024-08-24',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    3176,
+    2927,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2024-12-29',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    1384,
+    1210,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2024-04-23',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3702,
+    3535,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2024-10-23',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    1883,
+    1844,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    4,
+    '2025-12-06',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    707,
+    647,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    5,
+    '2024-05-25',
+    '06:30:00',
+    '09:06:00',
+    4.0,
+    2.6,
+    300,
+    600,
+    1246,
+    713,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    5,
+    '2025-10-05',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    1616,
+    1517,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2025-04-03',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    1938,
+    1850,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    5,
+    '2024-03-26',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    2917,
+    2659,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    22,
+    6,
+    6,
+    '2024-02-19',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    1661,
+    1430,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    2,
+    4,
+    '2025-11-17',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    2444,
+    2120,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    4,
+    '2025-01-02',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2681,
+    2549,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    2,
+    6,
+    '2024-11-25',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    601,
+    553,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    5,
+    '2025-02-23',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    794,
+    716,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    6,
+    '2025-03-21',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2524,
+    2416,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    4,
+    '2025-12-22',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    1221,
+    1127,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    4,
+    '2025-11-27',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    1128,
+    1116,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    2,
+    4,
+    '2025-08-14',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    1711,
+    1624,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    4,
+    '2024-10-20',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    922,
+    881,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    5,
+    '2025-01-12',
+    '12:30:00',
+    '15:00:00',
+    4.5,
+    2.5,
+    250,
+    800,
+    1239,
+    697,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    5,
+    '2025-10-14',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    3398,
+    3320,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    4,
+    '2025-01-21',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    3346,
+    3343,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    2,
+    5,
+    '2025-02-05',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    1054,
+    983,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    5,
+    '2024-01-03',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    2651,
+    2382,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    5,
+    '2024-06-09',
+    NULL,
+    NULL,
+    3.5,
+    0,
+    300,
+    800,
+    2703,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    4,
+    '2024-07-14',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    1324,
+    1131,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    2,
+    6,
+    '2024-05-05',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    1489,
+    1342,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    5,
+    '2024-08-26',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    3814,
+    3349,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    6,
+    '2025-01-23',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    1653,
+    1513,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    4,
+    '2024-03-09',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    1884,
+    1855,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    4,
+    '2025-04-10',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    1467,
+    1437,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    4,
+    '2025-06-06',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    3220,
+    3201,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    5,
+    '2024-05-29',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3183,
+    2976,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    2,
+    6,
+    '2025-07-31',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    2063,
+    1869,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    5,
+    '2024-03-09',
+    '18:00:00',
+    '20:54:00',
+    3.5,
+    2.9,
+    350,
+    500,
+    1240,
+    587,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    4,
+    '2025-12-23',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    1734,
+    1718,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    4,
+    '2025-06-20',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    1187,
+    1120,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    6,
+    '2025-08-07',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    1555,
+    1398,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    2,
+    6,
+    '2025-11-07',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3220,
+    2796,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    6,
+    '2025-01-08',
+    NULL,
+    NULL,
+    4.0,
+    0,
+    350,
+    600,
+    2323,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    2,
+    4,
+    '2024-12-04',
+    '12:30:00',
+    '15:30:00',
+    4.5,
+    3.0,
+    300,
+    500,
+    3499,
+    2429,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    4,
+    '2024-08-06',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    3583,
+    3367,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    6,
+    '2024-05-16',
+    '06:30:00',
+    '08:30:00',
+    4.5,
+    2.0,
+    250,
+    500,
+    3602,
+    2439,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    5,
+    '2024-10-05',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3957,
+    3388,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    5,
+    '2024-06-11',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3643,
+    3234,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    5,
+    '2025-09-14',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    3920,
+    3911,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    5,
+    '2025-03-06',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    2957,
+    2688,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    2,
+    6,
+    '2025-04-19',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    3063,
+    2930,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    1,
+    6,
+    '2024-09-02',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    1066,
+    1056,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    23,
+    5,
+    4,
+    '2025-05-15',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3885,
+    3486,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    1,
+    4,
+    '2025-04-12',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    1476,
+    1257,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    5,
+    '2025-11-30',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    985,
+    971,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    4,
+    '2025-07-05',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3490,
+    3075,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    5,
+    6,
+    '2025-04-22',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    1650,
+    1461,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    1,
+    6,
+    '2024-06-12',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    2972,
+    2841,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    4,
+    '2025-07-29',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    868,
+    752,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    5,
+    '2024-05-22',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    1777,
+    1775,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    4,
+    '2025-08-16',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2133,
+    1974,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    5,
+    6,
+    '2024-09-25',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    783,
+    768,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    5,
+    6,
+    '2024-11-29',
+    NULL,
+    NULL,
+    3.5,
+    0,
+    250,
+    600,
+    1210,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    6,
+    '2025-12-24',
+    '18:00:00',
+    '21:30:00',
+    4.5,
+    3.5,
+    400,
+    800,
+    3841,
+    2042,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    1,
+    5,
+    '2025-06-27',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1318,
+    1215,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    5,
+    5,
+    '2025-04-01',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    1442,
+    1358,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    4,
+    '2024-10-11',
+    '18:00:00',
+    '21:06:00',
+    3.5,
+    3.1,
+    250,
+    600,
+    3983,
+    2191,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    6,
+    '2025-04-16',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    637,
+    578,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    4,
+    '2025-06-27',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    928,
+    815,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    4,
+    '2025-02-25',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    3901,
+    3855,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    5,
+    4,
+    '2024-09-20',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1673,
+    1633,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    6,
+    '2024-08-23',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    1590,
+    1422,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    4,
+    '2024-04-30',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    3466,
+    3362,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    4,
+    '2024-06-24',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    2509,
+    2489,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    5,
+    5,
+    '2025-04-05',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    2535,
+    2325,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    6,
+    '2024-03-18',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3675,
+    3177,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    5,
+    '2025-11-25',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    1607,
+    1574,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    1,
+    4,
+    '2025-08-04',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    864,
+    821,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    4,
+    '2025-02-11',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    525,
+    470,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    5,
+    5,
+    '2025-02-08',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1753,
+    1594,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    4,
+    '2025-05-27',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    2765,
+    2642,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    1,
+    6,
+    '2024-03-26',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    1222,
+    1092,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    1,
+    6,
+    '2025-09-18',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    1425,
+    1312,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    4,
+    '2024-12-16',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    3144,
+    2909,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    5,
+    4,
+    '2024-03-18',
+    '06:30:00',
+    '08:06:00',
+    3.5,
+    1.6,
+    350,
+    800,
+    2744,
+    2083,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    6,
+    '2024-01-10',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    1138,
+    976,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    1,
+    6,
+    '2024-05-23',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    2927,
+    2540,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    5,
+    4,
+    '2025-07-12',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    400,
+    600,
+    2474,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    6,
+    '2025-07-28',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3347,
+    2924,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    2,
+    6,
+    '2025-10-24',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1376,
+    1229,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    1,
+    6,
+    '2025-12-05',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    1088,
+    1024,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    1,
+    6,
+    '2025-09-27',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    562,
+    485,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    24,
+    5,
+    5,
+    '2025-07-31',
+    '06:30:00',
+    '08:42:00',
+    3.5,
+    2.2,
+    350,
+    600,
+    3929,
+    2822,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    5,
+    '2025-12-08',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3167,
+    2696,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    4,
+    '2024-09-01',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    524,
+    496,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    4,
+    '2024-08-30',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    1829,
+    1747,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    5,
+    4,
+    '2024-03-10',
+    NULL,
+    NULL,
+    3.5,
+    0,
+    250,
+    600,
+    1947,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    6,
+    '2024-04-21',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    2929,
+    2774,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    6,
+    '2024-10-15',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    668,
+    623,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    5,
+    5,
+    '2024-06-26',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    1596,
+    1552,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    5,
+    '2025-10-21',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3072,
+    3067,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    4,
+    '2025-12-16',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    2444,
+    2293,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    6,
+    '2024-09-12',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    3145,
+    2736,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    5,
+    5,
+    '2024-07-22',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    1396,
+    1201,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    5,
+    5,
+    '2025-09-13',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    1575,
+    1445,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    5,
+    '2025-10-09',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    636,
+    635,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    5,
+    '2025-11-07',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    3025,
+    2731,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    6,
+    '2024-08-30',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    1307,
+    1253,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    6,
+    '2024-01-23',
+    '12:30:00',
+    '14:48:00',
+    4.0,
+    2.3,
+    350,
+    600,
+    741,
+    445,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    5,
+    6,
+    '2024-11-22',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    1184,
+    1026,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    5,
+    '2024-05-31',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    925,
+    862,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    5,
+    4,
+    '2024-06-19',
+    '18:00:00',
+    '20:24:00',
+    3.5,
+    2.4,
+    250,
+    800,
+    1770,
+    730,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    5,
+    5,
+    '2025-03-10',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    686,
+    628,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    6,
+    '2024-09-22',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    2219,
+    1998,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    5,
+    '2024-10-10',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    2698,
+    2510,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    5,
+    4,
+    '2025-03-14',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3639,
+    3389,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    5,
+    '2025-01-02',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    1459,
+    1416,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    4,
+    '2024-05-29',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    932,
+    929,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    5,
+    4,
+    '2025-03-26',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    600,
+    2452,
+    2330,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    4,
+    '2024-05-01',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    2995,
+    2672,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    5,
+    4,
+    '2024-11-20',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    1170,
+    1167,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    5,
+    5,
+    '2025-07-11',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    2313,
+    2040,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    5,
+    '2024-12-05',
+    '12:30:00',
+    '14:48:00',
+    4.0,
+    2.3,
+    400,
+    600,
+    3487,
+    1336,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    4,
+    '2024-01-20',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2669,
+    2372,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    6,
+    '2024-01-17',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    634,
+    567,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    6,
+    '2025-06-27',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    3754,
+    3421,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    5,
+    '2025-10-25',
+    NULL,
+    NULL,
+    4.0,
+    0,
+    400,
+    800,
+    694,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    5,
+    6,
+    '2024-10-05',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    1231,
+    1064,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    6,
+    '2024-07-07',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3204,
+    2992,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    5,
+    '2024-03-08',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    516,
+    447,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    2,
+    6,
+    '2025-11-23',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    2752,
+    2687,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    6,
+    '2025-03-16',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    3444,
+    3179,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    25,
+    1,
+    5,
+    '2025-10-01',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    775,
+    722,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    6,
+    '2024-09-19',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    2840,
+    2565,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    4,
+    '2024-02-08',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    549,
+    527,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    6,
+    '2024-09-07',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    722,
+    669,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    5,
+    '2025-01-19',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    3600,
+    3535,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    5,
+    '2025-06-23',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    2305,
+    1992,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    5,
+    6,
+    '2025-02-27',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    2431,
+    2300,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    4,
+    '2025-08-25',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    1428,
+    1258,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    6,
+    '2024-11-26',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    2036,
+    1744,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    4,
+    '2024-02-16',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    1582,
+    1363,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    4,
+    '2025-03-01',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    2501,
+    2373,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    4,
+    '2024-09-24',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    3252,
+    2974,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    6,
+    '2024-01-10',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    2433,
+    2242,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    5,
+    '2024-03-19',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    1899,
+    1865,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    5,
+    '2025-03-01',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    665,
+    619,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    4,
+    '2025-12-27',
+    '18:00:00',
+    '19:36:00',
+    4.0,
+    1.6,
+    350,
+    500,
+    794,
+    323,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    5,
+    '2024-04-27',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    857,
+    848,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    4,
+    '2024-09-19',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    3781,
+    3680,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    6,
+    '2024-06-02',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    3563,
+    3372,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    4,
+    '2025-01-19',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    3776,
+    3314,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    6,
+    '2024-09-05',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    300,
+    500,
+    1248,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    5,
+    '2024-05-24',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    3581,
+    3203,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    5,
+    '2024-03-28',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    507,
+    482,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    4,
+    '2024-03-16',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    1849,
+    1847,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    5,
+    6,
+    '2024-10-05',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    3935,
+    3422,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    6,
+    '2024-02-09',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    3103,
+    2688,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    5,
+    6,
+    '2025-07-09',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    913,
+    824,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    4,
+    '2025-12-21',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    3108,
+    3050,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    5,
+    '2025-03-14',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    2385,
+    2264,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    5,
+    '2024-11-03',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    2549,
+    2510,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    5,
+    5,
+    '2024-07-27',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    2063,
+    2022,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    5,
+    6,
+    '2025-10-20',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    2420,
+    2132,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    4,
+    '2024-10-31',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    1572,
+    1393,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    5,
+    '2024-07-12',
+    '06:30:00',
+    '08:42:00',
+    4.0,
+    2.2,
+    350,
+    800,
+    1380,
+    683,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    5,
+    6,
+    '2025-06-15',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3001,
+    2835,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    4,
+    '2024-03-10',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    1944,
+    1910,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    5,
+    '2025-03-31',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    3831,
+    3573,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    6,
+    '2025-05-09',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    613,
+    551,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    5,
+    '2024-02-15',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    3960,
+    3382,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    1,
+    5,
+    '2025-04-15',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    790,
+    706,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    26,
+    2,
+    6,
+    '2025-05-28',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    1333,
+    1254,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2024-07-01',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3852,
+    3827,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    5,
+    '2024-08-06',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    2443,
+    2350,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    5,
+    '2024-04-07',
+    '12:30:00',
+    '16:06:00',
+    4.5,
+    3.6,
+    350,
+    500,
+    1027,
+    364,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    5,
+    '2025-11-24',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    2696,
+    2349,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2024-09-24',
+    '18:00:00',
+    '22:00:00',
+    4.5,
+    4.0,
+    300,
+    600,
+    2496,
+    884,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    5,
+    '2024-07-23',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    3372,
+    2879,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2024-06-08',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    887,
+    796,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2024-06-28',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    1097,
+    989,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2025-03-06',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2966,
+    2719,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2024-10-21',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3130,
+    2880,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2024-09-13',
+    '06:30:00',
+    '08:30:00',
+    4.0,
+    2.0,
+    350,
+    600,
+    2857,
+    1510,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2025-03-29',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    836,
+    743,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2025-03-21',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    616,
+    567,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    5,
+    '2025-02-25',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    3917,
+    3567,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2024-06-12',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    3576,
+    3067,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2024-09-13',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    749,
+    643,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2024-12-13',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    500,
+    3698,
+    3449,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2024-08-19',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    2652,
+    2317,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2025-11-06',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    1227,
+    1132,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    5,
+    '2024-06-27',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    2631,
+    2439,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2024-05-15',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    3793,
+    3592,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    5,
+    '2024-04-18',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    3516,
+    3032,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2025-12-10',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    1886,
+    1810,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    5,
+    '2024-03-23',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    2428,
+    2083,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    5,
+    '2024-11-09',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    1547,
+    1470,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2025-10-21',
+    '18:00:00',
+    '20:42:00',
+    4.0,
+    2.7,
+    250,
+    600,
+    3755,
+    1704,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2025-04-30',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    3933,
+    3383,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2025-01-14',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3307,
+    3017,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2024-05-21',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    1756,
+    1625,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2024-01-08',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    1239,
+    1202,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2024-04-18',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    771,
+    731,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2025-06-16',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    600,
+    1272,
+    1257,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2025-04-25',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    2586,
+    2467,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    5,
+    '2024-07-18',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    1590,
+    1366,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2025-11-30',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2923,
+    2729,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2024-09-17',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    2434,
+    2246,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2025-12-04',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    848,
+    734,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2025-09-01',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    3515,
+    3064,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    6,
+    '2025-12-06',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    2685,
+    2460,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    27,
+    3,
+    4,
+    '2025-06-08',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    525,
+    467,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    4,
+    '2024-01-30',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3025,
+    2776,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2025-06-12',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    1452,
+    1331,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    4,
+    '2025-05-24',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    3421,
+    3279,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2025-09-26',
+    '06:30:00',
+    '09:12:00',
+    3.5,
+    2.7,
+    400,
+    600,
+    1078,
+    660,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2024-11-15',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    3134,
+    2962,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    4,
+    '2025-11-27',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    971,
+    957,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2025-10-01',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1001,
+    915,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2025-10-18',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    1784,
+    1517,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2024-06-10',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    3386,
+    3175,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2025-09-21',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    1008,
+    923,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2024-04-11',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    1871,
+    1848,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2025-04-13',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    3464,
+    2955,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2024-11-16',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    500,
+    3200,
+    2956,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    4,
+    '2024-08-16',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    500,
+    698,
+    658,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2024-12-17',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    2028,
+    1741,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2024-06-14',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    1136,
+    976,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2024-04-09',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    2370,
+    2195,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2024-04-06',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    2107,
+    2054,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2025-12-26',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    2082,
+    1885,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    4,
+    '2024-05-12',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    605,
+    521,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2025-05-01',
+    NULL,
+    NULL,
+    3.5,
+    0,
+    400,
+    800,
+    1496,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2024-06-01',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    1083,
+    968,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    4,
+    '2025-04-23',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3534,
+    3041,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2025-09-25',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    889,
+    821,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    4,
+    '2024-03-11',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3436,
+    3190,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    4,
+    '2024-10-14',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1567,
+    1443,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2025-09-28',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    3655,
+    3281,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    4,
+    '2025-10-19',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2997,
+    2668,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2024-10-16',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    3289,
+    3143,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2024-07-15',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    3896,
+    3841,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2024-03-01',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    3993,
+    3857,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2025-11-23',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    2097,
+    1993,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    4,
+    '2025-12-14',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    500,
+    2933,
+    2594,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2025-05-28',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    1971,
+    1753,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2024-12-29',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    1261,
+    1158,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2024-10-02',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    525,
+    481,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    4,
+    '2024-03-30',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    1603,
+    1376,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    6,
+    '2025-12-02',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3260,
+    2877,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2025-07-06',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    831,
+    805,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    28,
+    3,
+    5,
+    '2025-05-14',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3262,
+    3248,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2025-02-22',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    1857,
+    1580,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    6,
+    '2024-07-27',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1129,
+    1079,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2025-11-28',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3884,
+    3413,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2024-06-05',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3846,
+    3322,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2025-05-31',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    3084,
+    2685,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2024-06-29',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    3394,
+    2967,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2025-06-28',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    3034,
+    2943,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    6,
+    '2025-01-13',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    2394,
+    2363,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    6,
+    '2025-05-18',
+    '06:30:00',
+    '09:24:00',
+    4.0,
+    2.9,
+    350,
+    800,
+    1382,
+    716,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    6,
+    '2024-09-18',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    2433,
+    2350,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2025-05-29',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    500,
+    1093,
+    1006,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2025-05-01',
+    NULL,
+    NULL,
+    4.5,
+    0,
+    350,
+    600,
+    1707,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2025-07-21',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    2451,
+    2398,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2025-11-07',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    2617,
+    2527,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2025-06-11',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    3857,
+    3588,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    6,
+    '2025-09-06',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    600,
+    1883,
+    1696,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2024-02-13',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    250,
+    800,
+    2597,
+    2501,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2025-02-26',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    350,
+    800,
+    3835,
+    3369,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    6,
+    '2025-05-17',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    1738,
+    1540,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2024-06-28',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    600,
+    605,
+    585,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2025-07-20',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    1949,
+    1680,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2024-04-25',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    2061,
+    1871,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2024-03-05',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    2973,
+    2724,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2025-09-26',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    1135,
+    1115,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2024-03-29',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    2910,
+    2478,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2024-01-18',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    2217,
+    2172,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2024-02-15',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    800,
+    1967,
+    1729,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2025-05-18',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    1212,
+    1120,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2024-06-06',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    898,
+    822,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    6,
+    '2024-07-18',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    1089,
+    1004,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    6,
+    '2024-02-07',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    350,
+    800,
+    2387,
+    2314,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2024-01-01',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    500,
+    3645,
+    3603,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2024-09-21',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    1017,
+    916,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2025-01-09',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    300,
+    800,
+    3778,
+    3574,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2024-10-12',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    2314,
+    2268,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    5,
+    '2024-08-21',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    3888,
+    3607,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2024-09-26',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    250,
+    500,
+    3790,
+    3323,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2025-08-17',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    826,
+    705,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    6,
+    '2025-10-18',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3416,
+    3266,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    29,
+    8,
+    4,
+    '2025-12-14',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    3549,
+    3260,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    5,
+    6,
+    '2025-08-13',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    250,
+    800,
+    2105,
+    1869,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    5,
+    '2024-01-18',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    500,
+    3562,
+    3043,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    4,
+    '2024-12-25',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    3339,
+    3167,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    5,
+    6,
+    '2025-06-26',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    1111,
+    956,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    5,
+    '2025-03-03',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    805,
+    720,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    5,
+    '2024-01-31',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    3302,
+    3289,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    4,
+    '2025-06-14',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    300,
+    500,
+    3584,
+    3066,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    5,
+    '2024-08-16',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    792,
+    768,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    4,
+    '2024-10-18',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    1610,
+    1402,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    6,
+    '2025-03-08',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    400,
+    500,
+    3894,
+    3356,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    5,
+    4,
+    '2025-03-13',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    763,
+    660,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    5,
+    '2024-11-28',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    800,
+    3042,
+    3000,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    4,
+    '2024-07-10',
+    NULL,
+    NULL,
+    3.5,
+    0,
+    400,
+    800,
+    3570,
+    0,
+    'Missed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    5,
+    '2025-09-14',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    500,
+    2016,
+    1857,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    6,
+    '2024-09-10',
+    '06:30:00',
+    '09:30:00',
+    3.5,
+    3.0,
+    300,
+    500,
+    2824,
+    1084,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    4,
+    '2025-12-08',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    500,
+    3351,
+    3330,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    4,
+    '2024-08-12',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    2767,
+    2642,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    6,
+    '2025-11-19',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    350,
+    600,
+    3041,
+    2652,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    5,
+    '2024-11-08',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    2036,
+    1931,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    6,
+    '2024-11-02',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    400,
+    800,
+    1184,
+    1169,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    6,
+    '2025-11-19',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    3645,
+    3150,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    5,
+    '2024-03-06',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    2295,
+    2227,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    6,
+    '2024-06-28',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    800,
+    2808,
+    2644,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    5,
+    5,
+    '2025-03-13',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    1218,
+    1132,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    5,
+    '2024-04-15',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    400,
+    600,
+    3522,
+    3099,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    4,
+    '2024-03-26',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    400,
+    600,
+    1048,
+    898,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    5,
+    5,
+    '2024-03-10',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    1830,
+    1710,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    5,
+    '2024-01-09',
+    '18:00:00',
+    '20:54:00',
+    3.5,
+    2.9,
+    250,
+    500,
+    535,
+    417,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    5,
+    '2024-04-18',
+    '12:30:00',
+    '16:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    3688,
+    3253,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    5,
+    4,
+    '2024-11-24',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    250,
+    600,
+    953,
+    828,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    5,
+    '2025-05-02',
+    '12:30:00',
+    '16:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    3740,
+    3596,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    4,
+    '2024-07-26',
+    '12:30:00',
+    '17:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    2493,
+    2237,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    5,
+    6,
+    '2024-10-22',
+    '18:00:00',
+    '22:00:00',
+    4.0,
+    4.0,
+    300,
+    600,
+    1514,
+    1424,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    6,
+    '2025-09-20',
+    '18:00:00',
+    '22:30:00',
+    4.5,
+    4.5,
+    400,
+    600,
+    2908,
+    2833,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    5,
+    5,
+    '2025-02-06',
+    '06:30:00',
+    '09:30:00',
+    3.5,
+    3.0,
+    400,
+    500,
+    2900,
+    1778,
+    'Interrupted',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    4,
+    '2024-12-06',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    300,
+    800,
+    3266,
+    3050,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    5,
+    '2024-11-23',
+    '06:30:00',
+    '11:00:00',
+    4.5,
+    4.5,
+    350,
+    600,
+    3210,
+    2990,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    2,
+    6,
+    '2024-07-20',
+    '06:30:00',
+    '10:00:00',
+    3.5,
+    3.5,
+    350,
+    600,
+    526,
+    459,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    5,
+    '2025-06-07',
+    '18:00:00',
+    '21:30:00',
+    3.5,
+    3.5,
+    250,
+    800,
+    1921,
+    1697,
+    'Completed',
+    NULL
+);
+
+
+INSERT INTO sessions
+(
+    patient_id,
+    machine_id,
+    staff_id,
+    session_date,
+    start_time,
+    end_time,
+    prescribed_duration_hours,
+    actual_duration_hours,
+    blood_flow_rate,
+    dialysate_flow_rate,
+    uf_goal_ml,
+    fluid_removed_ml,
+    session_status,
+    notes
+)
+VALUES
+(
+    30,
+    1,
+    5,
+    '2025-01-14',
+    '06:30:00',
+    '10:30:00',
+    4.0,
+    4.0,
+    300,
+    800,
+    2468,
+    2327,
+    'Completed',
+    NULL
+);
+
