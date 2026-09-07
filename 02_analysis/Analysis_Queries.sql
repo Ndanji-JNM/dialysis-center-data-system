@@ -12,9 +12,9 @@
 
 USE dialysis_tracker;
 
--- ==========================================================
+ 
 -- 1. PATIENT ANALYSIS
--- ==========================================================
+ 
 
 -- Total number of patients
 SELECT
@@ -61,9 +61,8 @@ FROM patients
 GROUP BY status
 ORDER BY patient_count DESC;
 
--- ==========================================================
+ 
 -- 2. SESSION ANALYSIS
--- ==========================================================
 
 -- Total dialysis sessions
 SELECT
@@ -142,9 +141,8 @@ ROUND(AVG(fluid_removed_ml), 0)
 AS avg_fluid_removed_ml
 FROM sessions;
 
--- ==========================================================
+ 
 -- 3. SESSION PERFORMANCE
--- ==========================================================
 
 -- Completion rate
 SELECT
@@ -187,10 +185,8 @@ END
 2
 ) AS missed_session_rate
 FROM sessions;
-
--- ==========================================================
+ 
 -- 4. CLINICAL MONITORING
--- ==========================================================
 
 -- Average pre- and post-dialysis blood pressure
 SELECT
@@ -228,9 +224,7 @@ AVG(pre_weight - post_weight),
 ) AS avg_weight_reduction_kg
 FROM vital_logs;
 
--- ==========================================================
 -- 5. COMPLICATION ANALYSIS
--- ==========================================================
 
 -- Total complications
 SELECT
@@ -274,9 +268,7 @@ FROM session_complications
 GROUP BY intervention
 ORDER BY occurrence_count DESC;
 
--- ==========================================================
 -- 6. MACHINE / OPERATIONS ANALYSIS
--- ==========================================================
 
 -- Total operational machines
 SELECT
@@ -317,10 +309,8 @@ GROUP BY
 m.machine_id,
 m.loop_number
 ORDER BY session_count DESC;
-
--- ==========================================================
+ 
 -- 7. INFECTION CONTROL LOOP ANALYSIS
--- ==========================================================
 
 -- Machines by infection-control loop
 SELECT
@@ -339,10 +329,8 @@ LEFT JOIN sessions s
 ON m.machine_id = s.machine_id
 GROUP BY m.loop_number
 ORDER BY m.loop_number;
-
--- ==========================================================
+ 
 -- 8. STAFF ANALYSIS
--- ==========================================================
 
 -- Total active dialysis nurses
 SELECT
@@ -390,10 +378,8 @@ se.session_status
 ORDER BY
 staff_name,
 session_count DESC;
-
--- ==========================================================
+ 
 -- 9. PATIENT + SESSION ANALYSIS
--- ==========================================================
 
 -- Sessions by patient with patient information
 SELECT
@@ -417,10 +403,8 @@ p.gender,
 p.diagnosis,
 p.infection_status
 ORDER BY session_count DESC;
-
--- ==========================================================
+ 
 -- 10. SESSION + COMPLICATION ANALYSIS
--- ==========================================================
 
 -- Sessions with complications
 SELECT
@@ -448,10 +432,8 @@ JOIN session_complications sc
 ON s.session_id = sc.session_id
 GROUP BY s.session_status
 ORDER BY complication_count DESC;
-
--- ==========================================================
+ 
 -- 11. DATA QUALITY CHECKS
--- ==========================================================
 
 -- Sessions without a patient
 SELECT
