@@ -14,4 +14,6 @@ The database separates patient information, treatment sessions, staff, dialysis 
 
 Primary and foreign keys are used to maintain relationships between the tables.
 
+The database structure was visualized using MySQL Workbench's Reverse Engineer feature.
+
 See `database_schema.png` for the complete database structure.

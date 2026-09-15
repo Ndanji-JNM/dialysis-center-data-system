@@ -1,105 +1,80 @@
- # Analysis Findings
+# Analysis Findings
 
 ## Dialysis Session Tracking System
 
-This document summarizes the main findings identified from the synthetic dialysis dataset.
+This document summarizes observations from the analysis of the synthetic dialysis dataset.
 
-The analysis focuses on patient characteristics, dialysis activity, clinical monitoring, complications, and operational performance.
-
-> **Note:** The dataset is synthetic and the findings should not be interpreted as clinical findings from a real dialysis population.
+> **Note:** This project uses synthetic data for portfolio and learning purposes. Findings describe patterns within the generated dataset and should not be interpreted as real-world clinical conclusions.
 
 ---
 
 ## 1. Patient Population
 
-The dataset contains **30 active patients** used for the dialysis-session analysis.
+The dataset contains **30 active patients** with varied demographic, diagnostic, and infection-status attributes.
 
-The patient population was examined across:
+Infection statuses include:
 
-- Gender
-- Blood group
-- Diagnosis
-- Infection status
-- Patient status
+- None
+- HIV
+- Hepatitis C
+- Hepatitis B
 
-### Key observations
-
-- The dataset contains patients across multiple diagnostic categories.
-- Infection status is used as part of the machine-allocation logic.
-- Patient characteristics can be filtered and explored through the Power BI dashboard.
+These attributes were also used to demonstrate infection-control machine allocation.
 
 ---
 
 ## 2. Dialysis Session Activity
 
-A total of **1,200 dialysis sessions** were generated.
+The dataset contains **1,200 dialysis sessions**:
 
-Sessions were distributed across three possible outcomes:
+| Status | Sessions | Percentage |
+|---|---:|---:|
+| Completed | 1,087 | 90.6% |
+| Interrupted | 81 | 6.8% |
+| Missed | 32 | 2.7% |
 
-- Completed = 1087
-- Interrupted = 81
-- Missed = 32
+The session analysis provides a view of treatment activity and session outcomes.
 
-### Key observations
-
-- Completed sessions represent the largest share of treatment activity.
-- Interrupted sessions represent a smaller proportion of treatments.
-- Missed sessions represent the smallest category.
-- Session activity can be examined over time using the session date.
+> These percentages apply only to the synthetic dataset.
 
 ---
 
 ## 3. Treatment Parameters
 
-The dataset includes treatment parameters such as:
+Session records include:
 
-- Prescribed treatment duration
-- Actual treatment duration
-- Blood flow rate
-- Dialysate flow rate
-- Ultrafiltration goal
+- Prescribed and actual duration
+- Blood flow
+- Dialysate flow
+- UF goal
 - Fluid removed
 
-The generated treatment durations range from approximately **3.5 to 4.5 hours** for prescribed sessions.
+Completed sessions generally contain longer actual treatment durations, while interrupted sessions contain shorter durations. Missed sessions do not contain treatment measurements.
 
-### Key observations
+Fluid removal also varies across sessions according to the generated treatment parameters.
 
-- Completed sessions generally retain the prescribed treatment duration.
-- Interrupted sessions have shorter actual treatment durations.
-- Missed sessions have no treatment duration.
-- Fluid removal is generally lower for interrupted sessions than completed sessions.
-
+---
 
 ## 4. Clinical Monitoring
 
-Vital signs were generated for sessions that were not missed.
+Pre- and post-dialysis measurements were analyzed for:
 
-The analysis includes:
+- Systolic blood pressure
+- Diastolic blood pressure
+- Pulse
+- Weight
 
-- Pre-dialysis systolic blood pressure
-- Post-dialysis systolic blood pressure
-- Pre-dialysis diastolic blood pressure
-- Post-dialysis diastolic blood pressure
-- Pre-dialysis pulse
-- Post-dialysis pulse
-- Pre-dialysis weight
-- Post-dialysis weight
+The dataset shows changes between pre- and post-treatment measurements, including reductions in weight following fluid removal.
 
-### Key observations
+These measurements allow clinical variables to be monitored across individual sessions and patient treatment histories.
 
-- The dataset generally shows lower post-dialysis blood pressure compared with pre-dialysis measurements.
-- Post-dialysis weight is lower than pre-dialysis weight because fluid removal is incorporated into the generated records.
-- Pulse values show relatively small changes between pre- and post-dialysis measurements.
-
-These patterns are characteristics of the synthetic data-generation logic and should not be interpreted as clinical conclusions.
+> Clinical values are synthetic and should not be interpreted as actual patient outcomes.
 
 ---
 
 ## 5. Complications
 
-Complications were generated for a subset of dialysis sessions.
-
-The dataset includes:
+Recorded complications include:
 
 - Muscle Cramps
 - Hypotension
@@ -108,117 +83,61 @@ The dataset includes:
 - Chest Pain
 - Blood Leak Alarm
 
-Complications were assigned different severity levels:
+Complications were analyzed by type, severity, intervention, and session status.
 
-- Mild
-- Moderate
-- Severe
-
-### Key observations
-
-- Complications occur more frequently in interrupted sessions because the synthetic generation logic assigns a higher probability of complications to interrupted treatments.
-- Completed sessions have a lower probability of receiving a complication.
-- Missed sessions do not receive complications.
-
-The distribution of complication types and severity can be explored in the Complications page of the Power BI dashboard.
+Some differences in complication frequency appear between session statuses. However, the synthetic data-generation logic intentionally varies complication probabilities, so these patterns should **not** be interpreted as real clinical associations.
 
 ---
 
-## 6. Machine Operations
+## 6. Machine and Staff Operations
 
-Dialysis machines were organized according to infection-control loops.
+The analysis examined:
 
-The dataset contains operational machines across four loop categories.
- 
-Sessions were assigned to machines according to the patient's infection status and the corresponding machine loop.
+- Machine operational status
+- Sessions per machine
+- Infection-control loops
+- Staff session assignments
+- Session outcomes by staff
 
-### Key observations
-
-- Machine workload varies according to the number of sessions assigned to each machine.
-- Machines can therefore be compared based on session volume.
-- Infection-control loop distribution provides an operational view of available dialysis capacity.
-- Machine-level session counts can be used as a simple indicator of workload.
+This demonstrates how the same dataset can support both clinical and operational analysis.
 
 ---
 
-## 7. Staff Activity
+## 7. Data Quality
 
-Dialysis sessions were assigned to active dialysis nurses.
+SQL checks were used to identify:
 
-Staff activity can be examined through:
+- Sessions without patients
+- Sessions without machines
+- Sessions without assigned staff
+- Orphaned vital-log records
+- Orphaned complication records
 
-- Total sessions handled
-- Session status
-- Staff workload
-
-### Key observations
-
-- Session volume differs between staff members because assignments were generated randomly.
-- Staff workload can be compared using total assigned sessions.
-- Session outcomes can also be examined at staff level.
-
-These values represent synthetic assignments rather than actual staff performance.
+Primary and foreign-key relationships were also reviewed to support the integrity of the analytical dataset.
 
 ---
 
-## 8. Data Quality
+## 8. Dashboard Application
 
-Several validation checks were performed during the project.
+The analysis formed the foundation for the Power BI dashboard.
 
-These included:
+The dashboard presents:
 
-- Checking the number of generated records.
-- Verifying primary and foreign-key relationships.
-- Checking session relationships with patients, machines, and staff.
-- Checking vital-log relationships with sessions.
-- Checking complication relationships with sessions.
-- Validating the relationship between fluid removed and weight change.
-- Reviewing generated SQL records before loading them into MySQL.
-- Verifying the Power BI model and relationships.
+- Overall dialysis activity
+- Patient information
+- Session performance
+- Clinical monitoring
+- Machine and operational activity
+- Individual patient history through drill-through
 
-The generated dataset was successfully loaded into MySQL and connected to Power BI.
+The project demonstrates an end-to-end workflow:
 
----
-
-## 9. Dashboard Findings
-
-The Power BI dashboard provides interactive views of the dataset across six areas:
-
-1. Overview
-2. Patients
-3. Sessions
-4. Clinical Monitoring
-5. Complications
-6. Operations
-
-The dashboard allows users to filter and compare the data rather than relying only on static summary values.
-
-This makes it possible to examine the same dataset from different perspectives while keeping patient, treatment, clinical, complication, and operational analysis separate.
+**MySQL → SQL Analysis → Data Validation → Power BI → DAX → Interactive Reporting**
 
 ---
 
-## 10. Limitations
+## Limitations
 
-The dataset is synthetic and was created for analytical and portfolio purposes.
+The dataset is entirely synthetic. Patient information, clinical measurements, complications, staff assignments, and operational records were generated for demonstration purposes.
 
-The main limitations are:
-
-- Patient information is not real.
-- Clinical measurements are generated rather than observed.
-- Complications are generated according to predefined probabilities.
-- Staff assignments are synthetic.
-- Machine allocation is based on simplified infection-control rules.
-- The system does not represent a production clinical information system.
-
-Therefore, the findings demonstrate the analytical workflow rather than real-world clinical performance.
-
----
-
-## 11. Conclusion
-
-This project demonstrates an end-to-end workflow for transforming structured dialysis-unit data into an analytical reporting system.
-
-The project combines:
-
-**MySQL → Python → Data Validation → Power BI → DAX → Interactive Reporting**
- 
+The project is intended to demonstrate practical **SQL, data modelling, data analysis, DAX, and Power BI skills**, not to function as a production clinical system.
