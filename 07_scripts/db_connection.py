@@ -3,7 +3,7 @@ def get_connection():
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Canada(2249).",
+        password=" insert password here",
         database="dialysis_tracker"
     )
     return connection
