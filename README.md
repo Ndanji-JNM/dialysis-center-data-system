@@ -61,19 +61,16 @@ The relational structure uses primary and foreign keys to connect treatment, cli
 See [`04_database_design`](04_database_design/) for the database schema.
 
 ## Project Structure
-
-```text
 dialysis-session-tracking-system/
-│
-├── 01_database/
-├── 02_analysis/
-├── 03_powerbi/
-├── 04_database_design/
-├── 05_documentation/
-├── 06_images/
-└── 07_scripts/
 
-## Data
+01_database/
+02_analysis/
+03_powerbi/
+04_database_design/
+05_documentation/
+06_images/
+07_scripts/
+## Data 
 
 The dataset is synthetic and was created for portfolio and analytical demonstration purposes. It does not contain real patient information or represent real clinical outcomes.
 
@@ -88,6 +85,8 @@ The dataset is synthetic and was created for portfolio and analytical demonstrat
 - KPI development using DAX
 - Data visualization
 - Translating structured data into actionable insights
+
+
 
 ## Author
 
