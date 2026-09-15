@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python environment/config files
+.env
+
+# Power BI temporary/cache files
+*.pbi.local
+.cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE files
+.vscode/
+.idea/

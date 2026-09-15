@@ -1,21 +1,99 @@
-MIT License
+NON-COMMERCIAL PORTFOLIO LICENSE
 
 Copyright (c) 2026 Joseph Ndanji Muleba
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this project and its associated files (the "Project"), to view, study,
+download, copy, modify, and use the Project for personal, educational,
+academic, research, and other non-commercial purposes, subject to the
+following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. NON-COMMERCIAL USE
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+The Project, or any substantial portion of it, may not be sold, licensed,
+sublicensed, rented, leased, or otherwise provided as part of a commercial
+product or service without prior written permission from the copyright
+holder.
+
+Commercial use includes, but is not limited to:
+
+- Selling the Project or modified versions of the Project;
+- Incorporating substantial portions of the Project into a paid product,
+  service, application, training program, or commercial solution;
+- Using the Project to provide paid services to clients or customers;
+- Using the Project for direct commercial advantage or monetary
+  compensation.
+
+2. PERMITTED USE
+
+The Project may be used without additional permission for:
+
+- Personal learning and experimentation;
+- Educational and academic purposes;
+- Research and non-commercial analysis;
+- Personal portfolios and demonstrations;
+- Modification and creation of derivative works for non-commercial purposes.
+
+3. ATTRIBUTION
+
+When redistributing the Project or substantial portions of it for permitted
+non-commercial purposes, reasonable attribution must be provided to:
+
+Joseph Ndanji Muleba
+
+A reference to the original repository should be included where reasonably
+possible.
+
+4. REDISTRIBUTION
+
+Copies and modified versions may be shared for permitted non-commercial
+purposes provided that:
+
+- This license is included with the redistributed material;
+- The original copyright notice is retained;
+- The material is not presented as original work of another person.
+
+5. COMMERCIAL PERMISSION
+
+Commercial use is not granted by this license.
+
+Requests for commercial use, licensing, redistribution, or incorporation of
+substantial portions of the Project into a commercial product or service
+may be directed to the copyright holder.
+
+6. OWNERSHIP
+
+The Project and its original contents remain the property of Joseph Ndanji
+Muleba. This license grants limited permissions to use the Project and does
+not transfer ownership or copyright.
+
+7. THIRD-PARTY MATERIAL
+
+Any third-party libraries, software, datasets, images, or other materials
+included in or referenced by the Project may be subject to their own
+licenses and terms. This license does not override or replace those terms.
+
+8. NO WARRANTY
+
+THE PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE PROJECT OR
+THE USE OR OTHER DEALINGS IN THE PROJECT.
+
+9. CLINICAL DISCLAIMER
+
+This Project is a portfolio and educational demonstration. It is not a
+clinical information system, medical device, or source of medical advice.
+The synthetic data included in the Project must not be used to make clinical
+decisions or to represent actual patient outcomes.
+
+10. RESERVATION OF RIGHTS
+
+All rights not expressly granted by this license are reserved by the
+copyright holder.
+
+By using, copying, modifying, or redistributing the Project, you agree to
+the terms of this license.
