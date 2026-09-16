@@ -1,9 +1,8 @@
 -- Dialysis Session Tracking System
 -- Analytical SQL Queries
--- ==========================================================
+ 
 -- Purpose:
--- Explore patient demographics, dialysis activity,
--- clinical monitoring, complications, and operations.
+-- Explore patient demographics, dialysis activity, clinical monitoring, complications, and operations.
 ------------------------------------------------------
 
 -- Database: dialysis_tracker
