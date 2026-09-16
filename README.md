@@ -1,4 +1,4 @@
-# Dialysis Session Tracking System
+# Dialysis Center Data System
 
 A healthcare data analytics portfolio project that uses MySQL, Python, SQL, and Power BI to track and analyze dialysis treatment activity, clinical measurements, complications, and operational data.
 
